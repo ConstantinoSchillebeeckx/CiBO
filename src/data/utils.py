@@ -158,4 +158,5 @@ def split_data(df, ratios=[0.6,0.2,0.2], random=42):
         return dat_train, dat_tmp
 
 
-
+def is_not_ascii(s):
+    return not all(ord(c) < 128 for c in str(s))
