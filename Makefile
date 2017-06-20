@@ -18,7 +18,7 @@ data:
 
 ## Launch jupyter server
 jupyter:
-	jupyter notebook --notebook-dir notebooks/explore
+	jupyter notebook --notebook-dir notebooks/explore --config jupyter_notebook_config.py
 
 
 ## Make notebook TOC

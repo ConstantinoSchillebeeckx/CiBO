@@ -9,6 +9,21 @@ import scipy.stats
 
 # TODO - docs
 def draw_hist(x, xlabel, ylabel, title, log=False):
+    '''
+    Draw a seaborn distplot (histogram)
+
+    Args:
+        x (array): input data to generate histogram
+        xlabel (str): label for x-axis
+        ylabel (str): label for y-ayis
+        title (str): plot suptitle
+
+    Yields:
+        array of beer ids that are most highly rated. note that the length of this
+        array is not guarenteed to be length n since, in the case of tied scores,
+        the function will keep returning the next best beer until a different score
+        is found.
+    '''
 
     plt.figure(figsize=(17,4))
 

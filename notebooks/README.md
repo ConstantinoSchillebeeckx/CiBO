@@ -41,6 +41,12 @@ Another way of wording the questions is:
 - we can remove the reviews that had no associated `review_profilename`
 - there were numerous "troll" reviewers which should be removed from the dataset (trolls written to *../../data/interim/trolls.csv*)
 
+**[5.0_beer_style.ipynb](/notebooks/explore/5.0_beer_style.ipynb)**
+---
+
+The goal of this notebook is to try and answer the question
+> If I enjoy a beer's aroma and appearance, which beer style should I try?
+
 **[X.0_bonus.ipynb](/notebooks/explore/X.0_bonus.ipynb)**
 ---
 
