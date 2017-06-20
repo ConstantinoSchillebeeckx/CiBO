@@ -11,9 +11,7 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── interim        <- Data generated during the data analysis process, e.g. stats file.
-    │   ├── final          <- Final data results which designate what was learned from teh analysis.
-    │   ├── pcoa           <- Generated PCOA plots.
-    │   ├── phylo          <- Generated phylogenetic trees.
+    │   ├── final          <- Final data results which designate what was learned from the analysis.
     │   └── raw            <- The original, immutable data dump including OTU table and mapping file.
     │
     ├── docs               <- MkDocs

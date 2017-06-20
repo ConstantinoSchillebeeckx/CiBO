@@ -47,6 +47,8 @@ Another way of wording the questions is:
 The goal of this notebook is to try and answer the question
 > If I enjoy a beer's aroma and appearance, which beer style should I try?
 
+In other words, which beer style in general have the highest scores in `review_aroma` and `review_appearance`?
+
 **[X.0_bonus.ipynb](/notebooks/explore/X.0_bonus.ipynb)**
 ---
 
