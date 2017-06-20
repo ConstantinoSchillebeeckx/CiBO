@@ -1,15 +1,11 @@
 **[1.0_initial_look.ipynb](/notebooks/explore/1.0_initial_look.ipynb)**
 ---
 
-General questions to think about:
-- is each beer equally represented in the reviews, or do some beers get more/less reviews?
-- do we have all the data, or are there datum missing? If so, we may have to impute
-- are there any gross outliers which we should be careful of?
-- if every beer was equally reviewed, how many reviews would we expect each beer to have?
-- is each brewery equally represented in reviews?
-- does each brewery have the same count of number of beers reviewed?
-- do any of the reviewers have an "outlier" taste profile or do they rank beers quite differently to others?
-- are the beer_style equally represented?
+This notebook serves as an intial exploratory look into the beer review data provided for the CiBO data science exercise. In order to generate the data, please run `make data` from the project root directory.
+ 
+**TOC:**
+* [Initial thoughts](/notebooks/explore/1.0_initial_look.ipynb)
+* [Missing data](/notebooks/explore/1.0_initial_look.ipynb)
 
 **[2.0_brewery_highest_abv.ipynb](/notebooks/explore/2.0_brewery_highest_abv.ipynb)**
 ---
@@ -59,5 +55,18 @@ This notebook serves to answer the "bonus" question:
 **[1.0_report.ipynb](/notebooks/reports/1.0_report.ipynb)**
 ---
 
-
+This notebook serves as the master report document which will present the analysis results for the CiBO data science exercise. The exercise is structured around a beer review data set available [online](https://urldefense.proofpoint.com/v2/url?u=https-3A__s3.amazonaws.com_demo-2Ddatasets_beer-5Freviews.tar.gz&d=DwMFaQ&c=imBPVzF25OnBgGmVOlcsiEgHoG1i6YHLR0Sj_gZ4adc&r=8bgQeuykrF3aSX4ERnAE37e9TNni25ddf39sbnkKHrQ&m=hkI6yrD7SBn4Z9WO9Zt31KmSuYIswplFpvMihrHqFd4&s=PStqu-SKl1ZEMNBu4MLVtzHvrTddC9h1mM3NqDgmYmI&e=) for which the following must be explored:
+> 1. Which brewery produces the strongest beers by ABV%?
+> 2. If you had to pick 3 beers to recommend using only this data, which would you pick?
+> 3. Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?
+> 4. Lastly, if I enjoy a beer's aroma and appearance, which beer style should I try?
+ 
+**TOC:**
+* [Initial data exploration](/notebooks/reports/1.0_report.ipynb)
+* [Q1: Which brewery produces the strongest beers by ABV%?](/notebooks/reports/1.0_report.ipynb)
+  * [Introduction](/notebooks/reports/1.0_report.ipynb)
+  * [Dealing with noisy ABV%](/notebooks/reports/1.0_report.ipynb)
+  * [Choosing a brewery](/notebooks/reports/1.0_report.ipynb)
+  * [Summary](/notebooks/reports/1.0_report.ipynb)
+* [If you had to pick 3 beers to recommend using only this data, which would you pick?](/notebooks/reports/1.0_report.ipynb)
 
