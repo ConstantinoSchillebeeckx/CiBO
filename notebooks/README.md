@@ -1,7 +1,6 @@
 **[1.0_initial_look.ipynb](/notebooks/explore/1.0_initial_look.ipynb)**
 ---
 
-
 General questions to think about:
 - is each beer equally represented in the reviews, or do some beers get more/less reviews?
 - do we have all the data, or are there datum missing? If so, we may have to impute
@@ -20,7 +19,6 @@ General questions to think about:
 **[3.0_recommend_3_beers.ipynb](/notebooks/explore/3.0_recommend_3_beers.ipynb)**
 ---
 
-
 This question is quite open ended, best beer might be interpreted in the following ways:
 - best overall beers in entire dataset
 - best beers per `beer_type`
@@ -32,7 +30,6 @@ This question is quite open ended, best beer might be interpreted in the followi
 
 **[4.0_factors_for_beer_quality.ipynb](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)**
 ---
-
 
 The goal of this notebook is to try and answer the question
 > Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?
@@ -46,4 +43,13 @@ Another way of wording the questions is:
 
 **[X.0_bonus.ipynb](/notebooks/explore/X.0_bonus.ipynb)**
 ---
+
+This notebook serves ...
+
+> Generate 10,000 random numbers (i.e. sample) from a Logistic distribution with parameters “location" = 10 and “scale” = 2.
+
+**[1.0_report.ipynb](/notebooks/reports/1.0_report.ipynb)**
+---
+
+
 
