@@ -49,10 +49,10 @@ The goal of this notebook is to try and answer the question
 
 In other words, which beer style in general have the highest scores in `review_aroma` and `review_appearance`?
 
-**[X.0_bonus.ipynb](/notebooks/explore/X.0_bonus.ipynb)**
+**[6.0_bonus.ipynb](/notebooks/explore/6.0_bonus.ipynb)**
 ---
 
-This notebook serves ...
+This notebook serves to answer the "bonus" question:
 
 > Generate 10,000 random numbers (i.e. sample) from a Logistic distribution with parameters “location" = 10 and “scale” = 2.
 
