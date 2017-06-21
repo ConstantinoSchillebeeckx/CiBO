@@ -11907,10 +11907,10 @@ table { font-size:15px !important; }
 <li>The dataset is composed of a series of beer reviews containing scores for numerous categories. Each data entry also has an associated brewery and beer style.</li>
 <li>The following attribute fields have special characters (e.g. accents) in them: <code>brewery_name</code>, <code>beer_style</code>, <code>beer_name</code>.</li>
 <li>Several attributes have missing values: <code>brewery_name</code>, <code>review_profilename</code> and <code>beer_abv</code>. We aren't too concerned about <code>brewery_name</code> since we have associated <code>brewery_id</code> with them. However, <code>review_profilename</code> will be needed if we want to compare across reviewers. A total of 17,043 beers have a missing values for <code>beer_abv</code>.</li>
-<li>The distribution of beers reviews is not normal: the majority of beers have only a two reviews, however on average, each beer is reviewed about 24 times. <img src='figures/1.0_initial_look-0.png'></img></li>
-<li>Similarly, each brewery is not represented with the same number of beers: the average number of beers reviewed for the 5840 breweries in the dataset is ~11 where as the median is 5. <img src='figures/1.0_initial_look-1.png'></img></li>
-<li>Of the 66,055 beer represented, the most highly represented style is <em>American IPA</em> or <em>American Pale Ale (APA)</em>. <img src='figures/1.0_initial_look-2.png'></img></li>
-<li>The distribution of alcohol by volume percentage (ABV%) is roughly normal with the presence of numerous outliers. <img src='figures/1.0_initial_look-4.png'></img></li>
+<li>The distribution of beers reviews is not normal: the majority of beers have only a two reviews, however on average, each beer is reviewed about 24 times. <img src='figures/1.0_initial_look-0.svg'></img></li>
+<li>Similarly, each brewery is not represented with the same number of beers: the average number of beers reviewed for the 5840 breweries in the dataset is ~11 where as the median is 5. <img src='figures/1.0_initial_look-1.svg'></img></li>
+<li>Of the 66,055 beer represented, the most highly represented style is <em>American IPA</em> or <em>American Pale Ale (APA)</em>. <img src='figures/1.0_initial_look-2.svg'></img></li>
+<li>The distribution of alcohol by volume percentage (ABV%) is roughly normal with the presence of numerous outliers. <img src='figures/1.0_initial_look-4.svg'></img></li>
 </ul>
 
 </div>
@@ -11948,7 +11948,7 @@ table { font-size:15px !important; }
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Dealing-with-noisy-ABV%">Dealing with noisy ABV%<a class="anchor-link" href="#Dealing-with-noisy-ABV%">&#182;</a></h3><p>We being by naively looking at which brewery has the highest ABV% beers without removing any noisy data in order to get a general sense of the data. To do that, we generate a <em>beer dataset</em> which contains only the metadata associated with beer, this is done by grouping the starting dataset on <code>beer_beerid</code> and simply grabing the first entry of each group. From this <em>beer dataset</em> we group on <code>brewery_id</code>, aggregate with <em>max</em>, and sort the breweries by max ABV*; the plot below shows the top 15 breweries with the highest ABV% beer.</p>
-<p><img src='figures/2.0_brewery_highest_abv-0.png'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-0.svg'/></p>
 <p>Several interesting insights can be seen in this plot:</p>
 <ul>
 <li>Noisy high-ABV beers help rank several breweries very well.</li>
@@ -11956,14 +11956,14 @@ table { font-size:15px !important; }
 </ul>
 <p>In order to remove the noise, we will use the John Tukey method of detecting outliers: that is, any beer with an ABV% value that is more than Q3 + 1.5 <em> IQR  or less than Q1 + 1.5 </em> IQR is considered an outlier. Where IQR is the inner quartile range, Q1 is the first quartile, and Q3 is the third quartile.</p>
 <p>After removing outliers, we can replot the same top 15 breweries</p>
-<p><img src='figures/2.0_brewery_highest_abv-1.png'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-1.svg'/></p>
 <ul>
 <li>We can see that the ABV% values for all of the breweries are much more concentrated</li>
 <li>We can also see that several breweries with very few beers enter the list - a brewery with very few beers is perhaps not very representative of a brewery that is able to produce strong beers, we therefore choose to set a threshold of 5 beers needed in order for a brewery to be considered for this analysis. The disadvantage of this is that 5 is a relatively arbitrary cutoff. </li>
 <li>Brewery 6513 did not contain any outliers, however it now looks to be even more anomalous when compared to the remaining breweries; <mark>we therefore elect to call brewery 6513 erroneous and we remove it from consideration</mark></li>
 </ul>
 <p>With both noisy beers and brewery 6513 removed with arrive at the following distribution of breweries:</p>
-<p><img src='figures/2.0_brewery_highest_abv-3.png'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-3.svg'/></p>
 <p>From the plot above, we can begin to see several candidates for highest beer ABV% brewery: 2097, 11031, 10796 and 13307:</p>
 <ul>
 <li>10796 has two beers with the absolute highest ABV%</li>
@@ -12925,7 +12925,7 @@ strong multicollinearity or other numerical problems.
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The beers above show those that are both highly rated (on average) in aroma and appearance -&gt; these numbers suggest <em>American Double / Imperial Stout</em> be the <code>beer_style</code> to recommend. It should be noted that <em>American Double / Imperial IPA</em> was reviewed more than any other beer, and thus we can be more confident in scores attributed to this beer. It should also, perhaps, come as no surprise that the most highly ranked beers tend to have a high ABV% (as that would contribute to taste)</p>
 <p>Another simple approach would be to filter out all the beers that were scored low in both aroma and appearance; for example, if we filter out all beers that scored below 4.0 in these two factors, we might consider the beer styles that remain to be good candidates for the question at hand. We can then rank the beer styles by the ratio of of beers that remain (w.r.t to the total starting in each category). If we rank these beers at multiple cutoffs, we can get a better sense to how the beers ranks.</p>
-<p><img src='figures/5.0_beer_style-0.png'/></p>
+<p><img src='figures/5.0_beer_style-0.svg'/></p>
 <p>The heatmap above shows how the highest rated <code>beer_style</code> rank (0 is highest rank) as the cutoff value for score is increased from 4 to 5. We can see that <em>Quadrupel (Quad)</em>, <em>American Double/Imperial Stout</em> and <em>Russian Imperial Stout</em> consistently rank as the highest or second-highest rated <code>beer_style</code> all throughout the range of score cutoff.</p>
 <p>In general, the following beers show up highly ranked (top 5) across most cutoffs:</p>
 <ul>
@@ -12983,7 +12983,7 @@ strong multicollinearity or other numerical problems.
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Please refer to notebook <a href="../explore/6.0_bonus.ipynb">6.0</a> for the proposed solution.
-<img src='figures/6.0_bonus-0.png'/></p>
+<img src='figures/6.0_bonus-0.svg'/></p>
 
 </div>
 </div>
