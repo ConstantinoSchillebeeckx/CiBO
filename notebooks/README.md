@@ -99,6 +99,8 @@ This notebook serves as the master report document which will present the analys
   * [Summary](/notebooks/reports/1.0_report.ipynb)
 * [Q4: If I enjoy a beer's aroma and appearance, which beer style should I try?](/notebooks/reports/1.0_report.ipynb)
   * [Introduction](/notebooks/reports/1.0_report.ipynb)
+  * [Descriptive stats](/notebooks/reports/1.0_report.ipynb)
+  * [Machine learning classification](/notebooks/reports/1.0_report.ipynb)
   * [Summary](/notebooks/reports/1.0_report.ipynb)
 * [Q5: Generate 10,000 random numbers (i.e. sample) from a Logistic distribution with parameters “location" = 10 and “scale” = 2.](/notebooks/reports/1.0_report.ipynb)
 

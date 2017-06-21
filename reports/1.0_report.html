@@ -11922,10 +11922,10 @@ table { font-size:15px !important; }
 <li>The dataset is composed of a series of beer reviews containing scores for numerous categories. Each data entry also has an associated brewery and beer style.</li>
 <li>The following attribute fields have special characters (e.g. accents) in them: <code>brewery_name</code>, <code>beer_style</code>, <code>beer_name</code>.</li>
 <li>Several attributes have missing values: <code>brewery_name</code>, <code>review_profilename</code> and <code>beer_abv</code>. We aren't too concerned about <code>brewery_name</code> since we have associated <code>brewery_id</code> with them. However, <code>review_profilename</code> will be needed if we want to compare across reviewers. A total of 17,043 beers have a missing values for <code>beer_abv</code>.</li>
-<li>The distribution of beers reviews is not normal: the majority of beers have only a two reviews, however on average, each beer is reviewed about 24 times. <img src='figures/1.0_initial_look-0.svg' onerror="this.src='figures/1.0_initial_look-0.png'; this.onerror=null;"></img></li>
-<li>Similarly, each brewery is not represented with the same number of beers: the average number of beers reviewed for the 5840 breweries in the dataset is ~11 where as the median is 5. <img src='figures/1.0_initial_look-1.svg'></img></li>
-<li>Of the 66,055 beer represented, the most highly represented style is <em>American IPA</em> or <em>American Pale Ale (APA)</em>. <img src='figures/1.0_initial_look-2.svg'></img></li>
-<li>The distribution of alcohol by volume percentage (ABV%) is roughly normal with the presence of numerous outliers. <img src='figures/1.0_initial_look-4.svg'></img></li>
+<li>The distribution of beers reviews is not normal: the majority of beers have only a two reviews, however on average, each beer is reviewed about 24 times. <img src='figures/1.0_initial_look-0.png'></img></li>
+<li>Similarly, each brewery is not represented with the same number of beers: the average number of beers reviewed for the 5840 breweries in the dataset is ~11 where as the median is 5. <img src='figures/1.0_initial_look-1.png'></img></li>
+<li>Of the 66,055 beer represented, the most highly represented style is <em>American IPA</em> or <em>American Pale Ale (APA)</em>. <img src='figures/1.0_initial_look-2.png'></img></li>
+<li>The distribution of alcohol by volume percentage (ABV%) is roughly normal with the presence of numerous outliers. <img src='figures/1.0_initial_look-4.png'></img></li>
 </ul>
 
 </div>
@@ -11963,7 +11963,7 @@ table { font-size:15px !important; }
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Dealing-with-noisy-ABV%">Dealing with noisy ABV%<a class="anchor-link" href="#Dealing-with-noisy-ABV%">&#182;</a></h3><p>We being by naivly looking at which brewery has the highest ABV% beers without removing any noisy data in order to get a general sense of the data. To do that, we generate a <em>beer dataset</em> which contains only the meatdata associated with beer, this is done by grouping the starting dataset on <code>beer_beerid</code> and simply grabing the first entry of each group. From this <em>beer dataset</em> we group on <code>brewery_id</code>, aggregate with <em>max</em>, and sort the breweries by max ABV*; the plot below shows the top 15 breweries with the highest ABV% beer.</p>
-<p><img src='figures/2.0_brewery_highest_abv-0.svg'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-0.png'/></p>
 <p>Several interesting insights can be seen in this plot:</p>
 <ul>
 <li>Noisy high-ABV beers help rank several breweries very well.</li>
@@ -11971,14 +11971,14 @@ table { font-size:15px !important; }
 </ul>
 <p>In order to remove the noise, we will use the John Tukey method of detecting outliers: that is, any beer with an ABV% value that is more than Q3 + 1.5 <em> IQR  or less than Q1 + 1.5 </em> IQR is considered an outlier. Where IQR is the inner quartile range, Q1 is the first quartile, and Q3 is the third quartile.</p>
 <p>After removing outliers, we can replot the same top 15 breweries</p>
-<p><img src='figures/2.0_brewery_highest_abv-1.svg'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-1.png'/></p>
 <ul>
 <li>We can see that the ABV% values for all of the breweries are much more concentrated</li>
 <li>We can also see that several breweries with very few beers enter the list - a brewery with very few beers is perhaps not very representative of a brewery that is able to produce strong beers, we therefore choose to set a threshold of 5 beers needed in order for a brewery to be considered for this analysis. The disadvantage of this is that 5 is a relatively arbitrary cutoff. </li>
 <li>Brewery 6513 did not contain any outliers, however it now looks to be even more anamolous when compared to the reamining breweries; <mark>we therefore elect to call brewery 6513 erroneous and we remove it from consideration</mark></li>
 </ul>
 <p>With both noisy beers and brewery 6513 removed with arrive at the following ditribution of breweries:</p>
-<p><img src='figures/2.0_brewery_highest_abv-3.svg'/></p>
+<p><img src='figures/2.0_brewery_highest_abv-3.png'/></p>
 <p>From the plot above, we can begin to see several candidates for highest beer ABV% brewery: 2097, 11031, 10796 and 13307:</p>
 <ul>
 <li>10796 has two beers with the absolute highest ABV%</li>
@@ -12658,7 +12658,7 @@ strong multicollinearity or other numerical problems.
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The main takeaway from these results is that the r^2 value of this much more complex model (0.664) is not appreaceable better than the univarate model using just <code>review_taste</code>. This further points us in the direction that <code>review_taste</code> has the most impact on <code>review_overall</code> scores.</p>
-<p>A final approach is to train a Random Forest regression model on the entire dataset and use the feature importance scores it produces as a gauge for the most important factor.</p>
+<p>A final approach is to train a Random Forest regression model on the entire dataset and use the feature importance scores it produces as a gauge for the most important factor. We use a gridsearch in a cross-validated manner (3-fold) in order to do a little bit of hyper parameter tuning; in this way we can use our entire dataset to ensure we have a well trained model. By inspecting the analysis jupyter notebook, one can see that <code>review_taste</code> has a much higher feature importance than any of the other factors.</p>
 
 </div>
 </div>
@@ -12668,7 +12668,7 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3><p><mark>TODO</mark></p>
+<h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3><p>By using numerous regression approaches, we were able to show that <strong>review_taste</strong> is the factor most important in determening the overall quality of beer.</p>
 
 </div>
 </div>
@@ -12678,7 +12678,16 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Q4:-If-I-enjoy-a-beer's-aroma-and-appearance,-which-beer-style-should-I-try?">Q4: If I enjoy a beer's aroma and appearance, which beer style should I try?<a class="anchor-link" href="#Q4:-If-I-enjoy-a-beer's-aroma-and-appearance,-which-beer-style-should-I-try?">&#182;</a></h2><p>The notebook <a href="../explore/5.0_beer_style.ipynb">5.0</a> explores this questions.</p>
+<h2 id="Q4:-If-I-enjoy-a-beer's-aroma-and-appearance,-which-beer-style-should-I-try?">Q4: If I enjoy a beer's aroma and appearance, which beer style should I try?<a class="anchor-link" href="#Q4:-If-I-enjoy-a-beer's-aroma-and-appearance,-which-beer-style-should-I-try?">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h3><p>The notebook <a href="../explore/5.0_beer_style.ipynb">5.0</a> explores this questions.</p>
 <p>This questions, as opposed to the previous one, is a classification type problem. We are interested in identifying which class of <code>beer_style</code> is most highly correlated with high scores for both <code>review_aroma</code> and <code>review_appearance</code>. We will tackle this problem first by using simple descriptive stats, and then later by using numerous machine learning models.</p>
 <p>As we've identified in previous analyses, we will be removing any reviews that do not have an associated reviewer name and we will also be removing the "trolls".</p>
 
@@ -12690,7 +12699,270 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h3>
+<h3 id="Descriptive-stats">Descriptive stats<a class="anchor-link" href="#Descriptive-stats">&#182;</a></h3><p>We begin by naivly applying various descriptive stats to the two factors in question; furthermore, we engineer a feature by taking the mean score of <code>review_aroma</code> and <code>review_appearance</code>. These stats are all shown in the table below (sorted by <code>combo_score</code> mean)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../../data/interim/factor_stats.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[8]:</div>
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>aroma mean</th>
+      <th>aroma median</th>
+      <th>aroma std</th>
+      <th>aroma max</th>
+      <th>appearance mean</th>
+      <th>appearance median</th>
+      <th>appearance std</th>
+      <th>appearance max</th>
+      <th>combo mean</th>
+      <th>combo median</th>
+      <th>combo std</th>
+      <th>combo max</th>
+      <th>num beers</th>
+      <th>mean abv</th>
+    </tr>
+    <tr>
+      <th>beer_style</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>American Double / Imperial Stout</th>
+      <td>4.160604</td>
+      <td>4.0</td>
+      <td>0.570494</td>
+      <td>5.0</td>
+      <td>4.163563</td>
+      <td>4.0</td>
+      <td>0.515692</td>
+      <td>5.0</td>
+      <td>4.162084</td>
+      <td>4.25</td>
+      <td>0.446933</td>
+      <td>5.0</td>
+      <td>50696</td>
+      <td>10.605530</td>
+    </tr>
+    <tr>
+      <th>Russian Imperial Stout</th>
+      <td>4.076571</td>
+      <td>4.0</td>
+      <td>0.542298</td>
+      <td>5.0</td>
+      <td>4.210070</td>
+      <td>4.0</td>
+      <td>0.508619</td>
+      <td>5.0</td>
+      <td>4.143320</td>
+      <td>4.25</td>
+      <td>0.434802</td>
+      <td>5.0</td>
+      <td>54120</td>
+      <td>9.986842</td>
+    </tr>
+    <tr>
+      <th>Quadrupel (Quad)</th>
+      <td>4.132493</td>
+      <td>4.0</td>
+      <td>0.544134</td>
+      <td>5.0</td>
+      <td>4.117922</td>
+      <td>4.0</td>
+      <td>0.514125</td>
+      <td>5.0</td>
+      <td>4.125207</td>
+      <td>4.25</td>
+      <td>0.448639</td>
+      <td>5.0</td>
+      <td>18084</td>
+      <td>10.461493</td>
+    </tr>
+    <tr>
+      <th>American Double / Imperial IPA</th>
+      <td>4.097774</td>
+      <td>4.0</td>
+      <td>0.568202</td>
+      <td>5.0</td>
+      <td>4.078882</td>
+      <td>4.0</td>
+      <td>0.469201</td>
+      <td>5.0</td>
+      <td>4.088328</td>
+      <td>4.00</td>
+      <td>0.430182</td>
+      <td>5.0</td>
+      <td>85958</td>
+      <td>9.370207</td>
+    </tr>
+    <tr>
+      <th>Gueuze</th>
+      <td>4.117696</td>
+      <td>4.0</td>
+      <td>0.560120</td>
+      <td>5.0</td>
+      <td>4.034876</td>
+      <td>4.0</td>
+      <td>0.500074</td>
+      <td>5.0</td>
+      <td>4.076286</td>
+      <td>4.25</td>
+      <td>0.450927</td>
+      <td>5.0</td>
+      <td>6007</td>
+      <td>5.598439</td>
+    </tr>
+    <tr>
+      <th>American Wild Ale</th>
+      <td>4.126756</td>
+      <td>4.0</td>
+      <td>0.565143</td>
+      <td>5.0</td>
+      <td>4.005451</td>
+      <td>4.0</td>
+      <td>0.501612</td>
+      <td>5.0</td>
+      <td>4.066104</td>
+      <td>4.00</td>
+      <td>0.442322</td>
+      <td>5.0</td>
+      <td>17794</td>
+      <td>7.713634</td>
+    </tr>
+    <tr>
+      <th>Eisbock</th>
+      <td>4.156778</td>
+      <td>4.0</td>
+      <td>0.528950</td>
+      <td>5.0</td>
+      <td>3.964514</td>
+      <td>4.0</td>
+      <td>0.496758</td>
+      <td>5.0</td>
+      <td>4.060646</td>
+      <td>4.00</td>
+      <td>0.412955</td>
+      <td>5.0</td>
+      <td>2663</td>
+      <td>11.392852</td>
+    </tr>
+    <tr>
+      <th>American Barleywine</th>
+      <td>4.019348</td>
+      <td>4.0</td>
+      <td>0.524654</td>
+      <td>5.0</td>
+      <td>4.036376</td>
+      <td>4.0</td>
+      <td>0.478667</td>
+      <td>5.0</td>
+      <td>4.027862</td>
+      <td>4.00</td>
+      <td>0.408577</td>
+      <td>5.0</td>
+      <td>26721</td>
+      <td>10.703676</td>
+    </tr>
+    <tr>
+      <th>Belgian IPA</th>
+      <td>3.979666</td>
+      <td>4.0</td>
+      <td>0.511232</td>
+      <td>5.0</td>
+      <td>4.075199</td>
+      <td>4.0</td>
+      <td>0.481009</td>
+      <td>5.0</td>
+      <td>4.027432</td>
+      <td>4.00</td>
+      <td>0.402156</td>
+      <td>5.0</td>
+      <td>12467</td>
+      <td>8.349086</td>
+    </tr>
+    <tr>
+      <th>Weizenbock</th>
+      <td>4.044677</td>
+      <td>4.0</td>
+      <td>0.519257</td>
+      <td>5.0</td>
+      <td>4.009297</td>
+      <td>4.0</td>
+      <td>0.510222</td>
+      <td>5.0</td>
+      <td>4.026987</td>
+      <td>4.00</td>
+      <td>0.427077</td>
+      <td>5.0</td>
+      <td>9412</td>
+      <td>8.135482</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The beers above show those that are both highly rated (on average) in aroma and appearance -&gt; these numbers suggest <em>American Double / Imperial Stout</em> be the <code>beer_style</code> to recommend. It should be noted that <em>American Double / Imperial IPA</em> was reviewed more than any other beer, and thus we can be more confident in scores attributed to this beer. It should also, perhaps, come as no surprise that the most highly ranked beers tend to have a high ABV% (as that would contribute to taste)</p>
+<p>Another simple approach would be to filter out all the beers that were scored low in both aroma and appearance; for example, if we filter out all beers that scored below 4.0 in these two factors, we might consider the beer styles that remain to be good candidates for the question at hand. We can then rank the beer styles by the ratio of of beers that remain (w.r.t to the total starting in each category). If we rank these beers at multiple cutoffs, we can get a better sense to how the beers ranks.</p>
+<p><img src='figures/5.0_beer_style-0.png'/></p>
+<p>The heatmap above shows how the highest rated <code>beer_style</code> rank (0 is highest rank) as the cutoff value for score is increated from 4 to 5. We can see that <em>Quadrupel (Quad)</em>, <em>American Double/Imperial Stout</em> and <em>Russian Imperial Stout</em> consitently rank as the highest or second-highest rated <code>beer_style</code> all throughout the range of score cutoff.</p>
+<p>In general, the following beers show up highly ranked (top 5) across most cutoffs:</p>
+<ul>
+<li>Quadrupel (Quad)</li>
+<li>American Double/Imperial Stout</li>
+<li>Russian Imperial Stout</li>
+<li>American Double / Imperial IPA</li>
+</ul>
+<p>It's interesting to note that the <em>Biere Brut</em> shows up highly ranked only at cutoffs above 4.5. Furthermore, many of the beers on this list look to be the same types of beers: IPA, Stout or Sours (Lambic/Fruit). This gives us confidence that we are pulling out the right groups of beer style.</p>
+
 </div>
 </div>
 </div>
@@ -12699,7 +12971,27 @@ strong multicollinearity or other numerical problems.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3>
+<h3 id="Machine-learning-classification">Machine learning classification<a class="anchor-link" href="#Machine-learning-classification">&#182;</a></h3><p>Several machine learning classification models were trained with this data set; then, aritificial aroma and appearance scores were fed into the models and predictions for best beer style were acquired. Originally, all beer styles were included, however that produced very poor accuracy results. After subsetting the beer_styles to those shown on the heatmap we retrained the models on the training data and then calculated accuracies on a hold-out test set.</p>
+<p>The random forest classifier predicts the beer style of 'American Double / Imperial IPA' when predicting on scores of aroma and appearance up to 4.7; whereas for scores of 4.8 and above it predicts 'American Double / Imperial Stout'. The logistic regression model predicts 'American Double / Imperial IPA' all throughout the score range.</p>
+<p>It should be noted that for all the predictions, the calculated probabilites were low - therefore the confidence in these predictions is not very high. Furthermore, it should be noted that the Imperial IPA is quite over represented, especially when compared to the American Double / Imperial IPA.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3><p>All of the results for beer style that rank highly in aroma and appearance seem to fall into a single larger meta-category: beers that are strong, dark ales. This includes the styles:</p>
+<ul>
+<li>Quadrupel (Quad)</li>
+<li>American Double/Imperial Stout</li>
+<li>Russian Imperial Stout</li>
+<li>American Double / Imperial IPA</li>
+</ul>
+<p>It is difficult to pick just a single one that would guarantee enjoyment in both aroma and appearance, therefore it is our suggestion that any of the 4 beer styles above would guarantee enjoyment.</p>
+
 </div>
 </div>
 </div>
