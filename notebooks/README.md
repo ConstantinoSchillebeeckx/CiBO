@@ -10,10 +10,17 @@ This notebook serves as an intial exploratory look into the beer review data pro
 **[2.0_brewery_highest_abv.ipynb](/notebooks/explore/2.0_brewery_highest_abv.ipynb)**
 ---
 
+The goal of this notebook is to try and answer the question
+> Which brewery produces the strongest beers by ABV%?
 
+**NOTE**: analysis [1.0_initial_look](1.0_initial_look.ipynb) identified that various attributes had missing data:
+- `beer_abv` not available for all beers
+- `brewery_name` not available for each `brewery_id` -> therefore, we should be grouping on `brewery_id`
  
 **TOC:**
 * [Potential issues](/notebooks/explore/2.0_brewery_highest_abv.ipynb)
+* [Remove outliers](/notebooks/explore/2.0_brewery_highest_abv.ipynb)
+* [Remove brewery 6513 & those with a low beer count](/notebooks/explore/2.0_brewery_highest_abv.ipynb)
 
 **[3.0_recommend_3_beers.ipynb](/notebooks/explore/3.0_recommend_3_beers.ipynb)**
 ---
@@ -23,6 +30,10 @@ The goal of this notebook is to try and answer the question
  
 **TOC:**
 * [Initial thoughts](/notebooks/explore/3.0_recommend_3_beers.ipynb)
+* [Checking missing data](/notebooks/explore/3.0_recommend_3_beers.ipynb)
+* [Identifying trolls](/notebooks/explore/3.0_recommend_3_beers.ipynb)
+* [Identifying best beer](/notebooks/explore/3.0_recommend_3_beers.ipynb)
+* [Effect size](/notebooks/explore/3.0_recommend_3_beers.ipynb)
 
 **[4.0_factors_for_beer_quality.ipynb](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)**
 ---
@@ -36,6 +47,11 @@ Another way of wording the questions is:
 **NOTE:** we learned several things in analysis [3.0_recommend_3_beers](3.0_recommend_3_beers.ipynb) that impact this analysis:
 - we can remove the reviews that had no associated `review_profilename`
 - there were numerous "troll" reviewers which should be removed from the dataset (trolls written to *../../data/interim/trolls.csv*)
+ 
+**TOC:**
+* [Univariate linear regression](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)
+* [Multivariate linear regression](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)
+* [Random Forest regression](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)
 
 **[5.0_beer_style.ipynb](/notebooks/explore/5.0_beer_style.ipynb)**
 ---
@@ -43,7 +59,11 @@ Another way of wording the questions is:
 The goal of this notebook is to try and answer the question
 > If I enjoy a beer's aroma and appearance, which beer style should I try?
 
-In other words, which beer style in general have the highest scores in `review_aroma` and `review_appearance`?
+In other words, which beer style in general are correlated with the highest scores in `review_aroma` and `review_appearance`?
+ 
+**TOC:**
+* [Descriptive stats](/notebooks/explore/5.0_beer_style.ipynb)
+* [Machine learning classification](/notebooks/explore/5.0_beer_style.ipynb)
 
 **[6.0_bonus.ipynb](/notebooks/explore/6.0_bonus.ipynb)**
 ---
@@ -74,6 +94,11 @@ This notebook serves as the master report document which will present the analys
   * [Determining best beer](/notebooks/reports/1.0_report.ipynb)
   * [Summary](/notebooks/reports/1.0_report.ipynb)
 * [Q3: Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?](/notebooks/reports/1.0_report.ipynb)
+  * [Introduction](/notebooks/reports/1.0_report.ipynb)
+  * [Analysis](/notebooks/reports/1.0_report.ipynb)
+  * [Summary](/notebooks/reports/1.0_report.ipynb)
 * [Q4: If I enjoy a beer's aroma and appearance, which beer style should I try?](/notebooks/reports/1.0_report.ipynb)
+  * [Introduction](/notebooks/reports/1.0_report.ipynb)
+  * [Summary](/notebooks/reports/1.0_report.ipynb)
 * [Q5: Generate 10,000 random numbers (i.e. sample) from a Logistic distribution with parameters “location" = 10 and “scale” = 2.](/notebooks/reports/1.0_report.ipynb)
 

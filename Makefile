@@ -16,12 +16,12 @@ IS_ANACONDA=$(shell python -c "import sys;t=str('anaconda' in sys.version.lower(
 data:
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py
 
-## Launch jupyter server
+## Launch jupyter notebook
 jupyter:
 	jupyter notebook --notebook-dir notebooks
 
 
-## Make notebook TOC
+## Make notebook table of contents
 notebook_toc:
 	$(PYTHON_INTERPRETER) src/setup/make_notebook_toc.py notebooks/ > notebooks/README.md
 
