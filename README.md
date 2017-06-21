@@ -1,7 +1,7 @@
 CiBO_data_science_exercise
 ==============================
 
-CiBO's data science exerice used during the hiring process; **the final report is found [here](https://rawgit.com/ConstantinoSchillebeeckx/CiBO/master/reports/1.0_report.html)**.
+CiBO's data science exerice used during the hiring process; **the final report is found [here](reports/1.0_report.md)**.
 
 ### Points of interest
 
