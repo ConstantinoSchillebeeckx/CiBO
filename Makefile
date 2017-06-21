@@ -33,7 +33,7 @@ report:
 	find notebooks/reports/*md ! -name 'README.md' -cmin -1 -exec mv {} reports/ \; # mv files created in the last 60s
 
 ## Push to GitHub repo
-push: notebook_toc
+push: notebook_toc report
 	git add -A
 	git commit -m 'Make Git update'
 	git push
