@@ -57,7 +57,7 @@ for f in sorted(nbs):
         if len(toc):
             print " "
             print "**TOC:**"
-            print '\n'.join(toc)
+            print '\n'.join(toc).encode('utf-8').strip()
 
     print ""
 

@@ -11,18 +11,18 @@ This notebook serves as an intial exploratory look into the beer review data pro
 ---
 
 
+ 
+**TOC:**
+* [Potential issues](/notebooks/explore/2.0_brewery_highest_abv.ipynb)
 
 **[3.0_recommend_3_beers.ipynb](/notebooks/explore/3.0_recommend_3_beers.ipynb)**
 ---
 
-This question is quite open ended, best beer might be interpreted in the following ways:
-- best overall beers in entire dataset
-- best beers per `beer_type`
-- best can be rated by any or a combination of the beer attributes: `review_overall`, `review_aroma`, `review_appearance`, `review_tast`, `review_palate`, `beer_abv`
-
-**NOTE**: analysis [1.0_initial_look](1.0_initial_look.ipynb) identified various attributes with missing data that may impact this analysis:
-- `beer_abv` not available for all beers
-- `review_profilename` not available for each review -> it's uncertain what happend with this data - consider excluding?
+The goal of this notebook is to try and answer the question
+> If you had to pick 3 beers to recommend using only this data, which would you pick?
+ 
+**TOC:**
+* [Initial thoughts](/notebooks/explore/3.0_recommend_3_beers.ipynb)
 
 **[4.0_factors_for_beer_quality.ipynb](/notebooks/explore/4.0_factors_for_beer_quality.ipynb)**
 ---
@@ -59,7 +59,7 @@ This notebook serves as the master report document which will present the analys
 > 1. Which brewery produces the strongest beers by ABV%?
 > 2. If you had to pick 3 beers to recommend using only this data, which would you pick?
 > 3. Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?
-> 4. Lastly, if I enjoy a beer's aroma and appearance, which beer style should I try?
+> 4. If I enjoy a beer's aroma and appearance, which beer style should I try?
  
 **TOC:**
 * [Initial data exploration](/notebooks/reports/1.0_report.ipynb)
@@ -73,4 +73,7 @@ This notebook serves as the master report document which will present the analys
   * [Removing suspicious reviews (trolls)](/notebooks/reports/1.0_report.ipynb)
   * [Determining best beer](/notebooks/reports/1.0_report.ipynb)
   * [Summary](/notebooks/reports/1.0_report.ipynb)
+* [Q3: Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?](/notebooks/reports/1.0_report.ipynb)
+* [Q4: If I enjoy a beer's aroma and appearance, which beer style should I try?](/notebooks/reports/1.0_report.ipynb)
+* [Q5: Generate 10,000 random numbers (i.e. sample) from a Logistic distribution with parameters “location" = 10 and “scale” = 2.](/notebooks/reports/1.0_report.ipynb)
 
