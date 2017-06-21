@@ -6,6 +6,7 @@ CiBO's data science exerice used during the hiring process; **the final report i
 ### Points of interest
 
 The following directories or files will be especially interesting/important for the person going through this document.
+- `Makefile` helper makefile to do things like generate the starting data set or generate reports
 - `notebooks/explore/` contains all the jupyter notebooks used to go through the analysis
 - `notebooks/reports/` contains the jupyter notebook used to generate the final report **this notebook could even be used as a report**
 - `src/data/utils.py` is a python file that contains all the helper functions used throughout the analysis

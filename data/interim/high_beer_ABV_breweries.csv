@@ -1,0 +1,844 @@
+beer_beerid,brewery_id,brewery_name,beer_style,beer_name,beer_abv
+403,112,North Coast Brewing Co.,American IPA,ACME California IPA,6.5
+405,112,North Coast Brewing Co.,American Brown Ale,ACME California Brown Ale,5.6
+406,112,North Coast Brewing Co.,American Pale Ale (APA),ACME California Pale Ale,5.0
+407,112,North Coast Brewing Co.,American Pale Wheat Ale,Blue Star Great American Wheat Beer,4.5
+408,112,North Coast Brewing Co.,Irish Dry Stout,Old #38 Stout,5.6
+409,112,North Coast Brewing Co.,German Pilsener,Scrimshaw Pilsner,4.4
+410,112,North Coast Brewing Co.,American Amber / Red Ale,Ruedrich's Red Seal Ale,5.5
+411,112,North Coast Brewing Co.,Belgian Strong Pale Ale,Pranqster,7.6
+412,112,North Coast Brewing Co.,Russian Imperial Stout,Old Rasputin Russian Imperial Stout,9.0
+1867,112,North Coast Brewing Co.,Old Ale,Old Stock Ale,11.9
+9022,112,North Coast Brewing Co.,Russian Imperial Stout,Millennium Release Old Rasputin Imperial Stout,8.9
+25981,112,North Coast Brewing Co.,Saison / Farmhouse Ale,Silver Jubilee - 25th Anniversary Ale,7.3
+26089,112,North Coast Brewing Co.,Dubbel,Cru D'or,8.0
+26091,112,North Coast Brewing Co.,American Stout,Old Plowshare Stout,5.7
+26725,112,North Coast Brewing Co.,Belgian Strong Pale Ale,Anniversary XVI,8.2
+30282,112,North Coast Brewing Co.,Belgian Strong Dark Ale,Brother Thelonious,9.4
+34782,112,North Coast Brewing Co.,Russian Imperial Stout,Old Rasputin X Anniversary Barrel Aged Stout,11.7
+37112,112,North Coast Brewing Co.,Saison / Farmhouse Ale,Le Merle,7.9
+37113,112,North Coast Brewing Co.,Old Ale,Old Stock Cellar Reserve (Aged In Bourbon Barrels),13.16
+37114,112,North Coast Brewing Co.,Old Ale,Old Stock Cellar Reserve (Aged In Brandy Barrels),14.7
+46376,112,North Coast Brewing Co.,Russian Imperial Stout,Old Rasputin XI,11.6
+50646,112,North Coast Brewing Co.,American Strong Ale,Twentieth Anniversary Ale,12.5
+50752,112,North Coast Brewing Co.,Russian Imperial Stout,Old Rasputin XII,11.2
+71265,112,North Coast Brewing Co.,Belgian Strong Pale Ale,Grand Cru,12.9
+75978,112,North Coast Brewing Co.,Russian Imperial Stout,Old Rasputin XIV Anniversary,11.5
+726,262,Shmaltz Brewing Company,American Amber / Red Ale,He'Brew Genesis Ale,5.6
+12694,262,Shmaltz Brewing Company,American Brown Ale,He'Brew Messiah Bold,5.6
+20561,262,Shmaltz Brewing Company,American Porter,He'Brew Miraculous Jewbelation (8),8.0
+25467,262,Shmaltz Brewing Company,American Brown Ale,He'Brew Jewbelation 5766 (9),9.0
+30969,262,Shmaltz Brewing Company,Fruit / Vegetable Beer,He'Brew Genesis 10:10,10.0
+30970,262,Shmaltz Brewing Company,American Double / Imperial IPA,He'Brew Bittersweet Lenny's R.I.P.A.,10.0
+33499,262,Shmaltz Brewing Company,American Brown Ale,He'Brew Monumental Jewbelation (10),10.0
+35741,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Origin Pomegranate Ale,8.0
+37142,262,Shmaltz Brewing Company,American Amber / Red Lager,Coney Island Lager,5.5
+39043,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation 11,11.0
+40157,262,Shmaltz Brewing Company,American Double / Imperial IPA,He'Brew Bittersweet Lenny's R.I.P.A. On Rye,10.0
+42380,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Rejewvenator (Year Of The Fig) 2008,7.8
+43120,262,Shmaltz Brewing Company,Herbed / Spiced Beer,Coney Island Albino Python,6.0
+43149,262,Shmaltz Brewing Company,American Pale Lager,Coney Island Sword Swallower,6.8
+43353,262,Shmaltz Brewing Company,Doppelbock,Coney Island Human Blockhead,10.0
+43442,262,Shmaltz Brewing Company,American Amber / Red Lager,Coney Island Freaktoberfest,6.66
+45522,262,Shmaltz Brewing Company,American Brown Ale,He'Brew Jewbelation 12,12.0
+50172,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Rejewvenator (Year Of The Date) 2009,7.8
+50743,262,Shmaltz Brewing Company,German Pilsener,Coney Island Mermaid Pilsener,5.0
+52283,262,Shmaltz Brewing Company,Doppelbock,Coney Island Barrel-Aged Human Blockhead,10.0
+53470,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Bar Mitzvah (13),13.0
+56288,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Bar Mitzvah (13) Barrel-Aged On Rye,13.0
+58693,262,Shmaltz Brewing Company,Doppelbock,He'Brew Rejewvenator (Year Of The Grape) 2010,8.2
+62788,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Fourteen,14.0
+62790,262,Shmaltz Brewing Company,American Strong Ale,Coney Island Geektoberfest,8.5
+63227,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Vertical (Rye Whiskey Barrel Aged Blend),10.5
+65294,262,Shmaltz Brewing Company,American Double / Imperial IPA,He'Brew Bittersweet Lenny's R.I.P.A. - Cedar & Simcoe,10.0
+69010,262,Shmaltz Brewing Company,American Brown Ale,Reunion: A Beer For Hope 2011,7.3
+69721,262,Shmaltz Brewing Company,American IPA,He'Brew Hop Manna Test Batch #1,6.8
+72646,262,Shmaltz Brewing Company,American IPA,He'Brew Hop Manna Test Batch #2,6.8
+73599,262,Shmaltz Brewing Company,American Barleywine,He'Brew Genesis 15:15,13.4
+76115,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Vertical (Sazerac Bourbon Barrel Aged),10.5
+76144,262,Shmaltz Brewing Company,American Strong Ale,He'Brew Jewbelation Fifteen,15.0
+76230,262,Shmaltz Brewing Company,American IPA,He'Brew Hop Manna Test Batch #3,6.8
+76295,262,Shmaltz Brewing Company,American Pale Ale (APA),He'Brew Genesis Dry-Hopped Session Ale,5.2
+5474,2097,Kuhnhenn Brewing Company,American Pale Ale (APA),Kuhnhenn Loonie Kuhnie Pale Ale (DUPLICATE),5.6
+7908,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn American IPA,6.5
+7909,2097,Kuhnhenn Brewing Company,American Porter,Kuhnhenn Penetration Porter,5.5
+7910,2097,Kuhnhenn Brewing Company,Belgian IPA,Kuhnhenn Simcoe Silly,9.0
+7911,2097,Kuhnhenn Brewing Company,German Pilsener,Kuhnhenn Pilsener,5.5
+7919,2097,Kuhnhenn Brewing Company,Wheatwine,Kuhnhenn Wheat Wine,11.0
+8388,2097,Kuhnhenn Brewing Company,English Barleywine,Kuhnhenn Bourbon Barrel Barley Wine,14.5
+8885,2097,Kuhnhenn Brewing Company,English India Pale Ale (IPA),Kuhnhenn English India Pale Ale,6.0
+9661,2097,Kuhnhenn Brewing Company,Russian Imperial Stout,Kuhnhenn Russian Imperial Stout,12.5
+9739,2097,Kuhnhenn Brewing Company,Scottish Gruit / Ancient Herbed Ale,Kuhnhenn Heather Ale,4.75
+11784,2097,Kuhnhenn Brewing Company,Eisbock,Kuhnhenn Raspberry Eisbock,13.5
+12148,2097,Kuhnhenn Brewing Company,Witbier,Kuhnhenn Tangerine Wit,5.5
+12704,2097,Kuhnhenn Brewing Company,Oatmeal Stout,Kuhnhenn Oatmeal Stout,6.1
+12844,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Braggot,13.0
+13855,2097,Kuhnhenn Brewing Company,English Brown Ale,Kuhnhenn Nut Brown Ale,5.6
+13856,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Balls Deep,8.0
+13857,2097,Kuhnhenn Brewing Company,Pumpkin Ale,Kuhnhenn All Hallows Ale,6.5
+13867,2097,Kuhnhenn Brewing Company,Märzen / Oktoberfest,Kuhnhenn Oktoberfest,5.6
+14437,2097,Kuhnhenn Brewing Company,American Wild Ale,Kuhnhenn Play In The Hay (Cherry),8.5
+15092,2097,Kuhnhenn Brewing Company,Eisbock,Kuhnhenn Winter Wonder Lager,13.0
+15650,2097,Kuhnhenn Brewing Company,American Pale Ale (APA),Kuhnhenn Loonie Kuhnie Pale Ale,5.6
+16093,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Imperial Cherry Stout,12.0
+16094,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Raspberry Panty Dropper,4.5
+16357,2097,Kuhnhenn Brewing Company,Tripel,Kuhnhenn Diablo Belgian Trippel,9.5
+16358,2097,Kuhnhenn Brewing Company,American Double / Imperial IPA,Kuhnhenn American Extreme IPA,7.2
+16387,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Lime Panty Dropper,4.5
+17038,2097,Kuhnhenn Brewing Company,Scotch Ale / Wee Heavy,Kuhnhenn A Few Schillings Too Many,12.5
+17658,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Devil's Horn,8.5
+17799,2097,Kuhnhenn Brewing Company,Hefeweizen,Kuhnhenn Hefeweiss,5.0
+18023,2097,Kuhnhenn Brewing Company,Smoked Beer,Kuhnhenn Coffee Rauch,5.0
+18328,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn B-Rad's Banana Stout,6.0
+18331,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn Red IPA,5.5
+18375,2097,Kuhnhenn Brewing Company,Herbed / Spiced Beer,Kuhnhenn Breakfast Sausage Ale,5.8
+18755,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Dave's Dark Strong Ale,8.9
+18850,2097,Kuhnhenn Brewing Company,Old Ale,Kuhnhenn Fourth Dementia (4D),13.5
+18973,2097,Kuhnhenn Brewing Company,American Stout,Kuhnhenn Crème Brûlée Java Stout,5.8
+18974,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Blueberry Pancake Ale,5.8
+18976,2097,Kuhnhenn Brewing Company,Altbier,Kuhnhenn Alt,5.0
+19739,2097,Kuhnhenn Brewing Company,American Stout,Kuhnhenn Stout,5.5
+19879,2097,Kuhnhenn Brewing Company,Saison / Farmhouse Ale,Kuhnhenn Saison,6.0
+19942,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Peach Apricot Panty Dropper,4.5
+19943,2097,Kuhnhenn Brewing Company,Belgian Pale Ale,Kuhnhenn Belgian Amber,5.5
+20663,2097,Kuhnhenn Brewing Company,Doppelbock,Kuhnhenn Bock With Bolz,11.0
+20713,2097,Kuhnhenn Brewing Company,Kölsch,Kuhnhenn Brothers Gold,5.0
+20783,2097,Kuhnhenn Brewing Company,Belgian Strong Pale Ale,Kuhnhenn Grand Cru,9.3
+20921,2097,Kuhnhenn Brewing Company,American Double / Imperial Stout,Kuhnhenn American Imperial Stout,13.5
+21104,2097,Kuhnhenn Brewing Company,Czech Pilsener,Kuhnhenn Czech / Bohemian Pilsner,4.8
+21188,2097,Kuhnhenn Brewing Company,American Pale Lager,Kuhnhenn Dutch Lager,4.5
+21293,2097,Kuhnhenn Brewing Company,Bock,Kuhnhenn Metry's Winter Lager,6.5
+21313,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Cherry Panty Dropper,4.5
+21587,2097,Kuhnhenn Brewing Company,American Amber / Red Ale,Kuhnhenn Red Run Red Ale,5.9
+21695,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Dark Abbey,12.5
+21701,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Apprentice X,5.5
+21780,2097,Kuhnhenn Brewing Company,Altbier,Kuhnhenn Sticke Alt,6.0
+22093,2097,Kuhnhenn Brewing Company,Eisbock,Kuhnhenn Eisbock,13.0
+22397,2097,Kuhnhenn Brewing Company,Cream Ale,Kuhnhenn Nitro Cream Ale,4.8
+22398,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Strawberry Panty Dropper,4.8
+22556,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Belgian Strong,9.5
+22800,2097,Kuhnhenn Brewing Company,Irish Dry Stout,Kuhnhenn Dry Stout,3.5
+22801,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Loonie Kuhnies Kriek,8.0
+23094,2097,Kuhnhenn Brewing Company,Dunkelweizen,Kuhnhenn Iron Monger Dunkel,6.1
+23582,2097,Kuhnhenn Brewing Company,Maibock / Helles Bock,Kuhnhenn Maibock,7.5
+24285,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Nine,9.0
+25877,2097,Kuhnhenn Brewing Company,American Adjunct Lager,Kuhnhenn Classic American,4.8
+26720,2097,Kuhnhenn Brewing Company,Bock,Kuhnhenn Rauch Bock,7.0
+27178,2097,Kuhnhenn Brewing Company,Pumpkin Ale,Kuhnhenn Natural Pumpkin Ale,6.5
+27375,2097,Kuhnhenn Brewing Company,American Double / Imperial Pilsner,Kuhnhenn Gonzo American Pilsner,4.9
+27390,2097,Kuhnhenn Brewing Company,American Amber / Red Ale,Kuhnhenn Anneliese Ale,5.8
+28389,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Bruin Schuim,8.0
+30067,2097,Kuhnhenn Brewing Company,Vienna Lager,Kuhnhenn Vienna Lager,6.2
+30249,2097,Kuhnhenn Brewing Company,Doppelbock,Kuhnhenn Dark Heathen Triple Bock,13.5
+31610,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Chocolate Braggot,14.5
+34313,2097,Kuhnhenn Brewing Company,Old Ale,Kuhnhenn Bourbon Barrel Fourth Dementia,13.5
+34588,2097,Kuhnhenn Brewing Company,Winter Warmer,Kuhnhenn Kuhnie Christmas,5.9
+35403,2097,Kuhnhenn Brewing Company,Dubbel,Kuhnhenn Nine Syrah Cask Aged,10.5
+36239,2097,Kuhnhenn Brewing Company,American Amber / Red Ale,Kuhnhenn Apricot Panty Dropper,4.5
+36988,2097,Kuhnhenn Brewing Company,American Double / Imperial IPA,Kuhnhenn DRIPA (Double Rice IPA),9.5
+37798,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Tenacious Cassis,15.0
+38420,2097,Kuhnhenn Brewing Company,Herbed / Spiced Beer,Kuhnhenn Gingerlicious,6.5
+38429,2097,Kuhnhenn Brewing Company,Russian Imperial Stout,Kuhnhenn Road Rash Imperial Stout,12.5
+40181,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Prometheus,10.2
+40228,2097,Kuhnhenn Brewing Company,American Barleywine,Kuhnhenn American Barley Wine,11.5
+41653,2097,Kuhnhenn Brewing Company,Belgian IPA,Kuhnhenn Aldebaran,9.5
+42687,2097,Kuhnhenn Brewing Company,Witbier,Kuhnhenn Michigan Wit,5.0
+45079,2097,Kuhnhenn Brewing Company,Altbier,Kuhnhenn Double Secret Probation Altbier (Double Sticke Alt),7.75
+46848,2097,Kuhnhenn Brewing Company,American Double / Imperial IPA,Kuhnhenn Extreme IPA,12.0
+47043,2097,Kuhnhenn Brewing Company,American Dark Wheat Ale,Kuhnhenn Wizard Sleeve,8.2
+47203,2097,Kuhnhenn Brewing Company,Doppelbock,Kuhnhenn Rauch Double Bock,8.25
+47700,2097,Kuhnhenn Brewing Company,Old Ale,Kuhnhenn Fifth Dementia,15.0
+49898,2097,Kuhnhenn Brewing Company,American Double / Imperial IPA,Kuhnhenn Confusion DIPA,10.0
+50651,2097,Kuhnhenn Brewing Company,Belgian Pale Ale,Kuhnhenn Snrub,5.5
+51039,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Blueberry Panty Dropper,6.0
+52550,2097,Kuhnhenn Brewing Company,American Amber / Red Ale,Kuhnhenn Michigan Malted,7.2
+54464,2097,Kuhnhenn Brewing Company,Schwarzbier,Kuhnhenn Schwarz Bock,7.0
+54916,2097,Kuhnhenn Brewing Company,English Dark Mild Ale,Kuhnhenn Wild Child,3.25
+54918,2097,Kuhnhenn Brewing Company,American Barleywine,Kuhnhenn Bonicci Barley Wine,12.0
+54919,2097,Kuhnhenn Brewing Company,Foreign / Export Stout,Kuhnhenn Foreign Export Stout,7.0
+54993,2097,Kuhnhenn Brewing Company,American Double / Imperial Stout,Kuhnhenn Imperial Crème Brûlée Java Stout,8.0
+55047,2097,Kuhnhenn Brewing Company,Pumpkin Ale,Kuhnhenn Pumpkin Braggot,16.0
+55199,2097,Kuhnhenn Brewing Company,Tripel,Kuhnhenn Caramel Apple Trippel,9.0
+55372,2097,Kuhnhenn Brewing Company,American Wild Ale,Kuhnhenn Play In The Hay,8.5
+55469,2097,Kuhnhenn Brewing Company,Weizenbock,Kuhnhenn Weiss Teufel (White Devil),8.0
+56731,2097,Kuhnhenn Brewing Company,Flanders Oud Bruin,Kuhnhenn Cherry Olde Brune,12.0
+57638,2097,Kuhnhenn Brewing Company,Belgian IPA,Kuhnhenn Belgian IPA,5.7
+60568,2097,Kuhnhenn Brewing Company,American Brown Ale,Kuhnhenn E.T.'s Reese's Pieces,6.2
+62415,2097,Kuhnhenn Brewing Company,Gueuze,Kuhnhenn Gueuze,5.0
+63102,2097,Kuhnhenn Brewing Company,American Black Ale,Kuhnhenn Hooded Knight,9.0
+63449,2097,Kuhnhenn Brewing Company,Maibock / Helles Bock,Kuhnhenn Mittelfruh Monster,8.0
+64632,2097,Kuhnhenn Brewing Company,Lambic - Fruit,Kuhnhenn Play In The Hay (Blueberry) - DUPLICATE,6.8
+64880,2097,Kuhnhenn Brewing Company,American Black Ale,Kuhnhenn Lunar Eclipse,11.0
+65841,2097,Kuhnhenn Brewing Company,English Brown Ale,Kuhnhenn Kuhnie Wrench,7.0
+65895,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Nine Braggot,9.2
+66850,2097,Kuhnhenn Brewing Company,Herbed / Spiced Beer,Kuhnhenn Stollen Christmas Ale,9.0
+68747,2097,Kuhnhenn Brewing Company,Belgian Strong Dark Ale,Kuhnhenn Burghard Crusader Strong,8.5
+68749,2097,Kuhnhenn Brewing Company,American Pale Ale (APA),Kuhnhenn Timmy T's,4.5
+70070,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn Red Dawn IPA,7.25
+70072,2097,Kuhnhenn Brewing Company,Saison / Farmhouse Ale,Kuhnhenn Alsace Saison,7.7
+70073,2097,Kuhnhenn Brewing Company,Fruit / Vegetable Beer,Kuhnhenn Peach Panty Dropper,4.5
+70964,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Imperial Bourbon Barrel Braggot,16.5
+71341,2097,Kuhnhenn Brewing Company,Hefeweizen,Kuhnhenn Ambrosiaweiss,5.5
+71431,2097,Kuhnhenn Brewing Company,American Wild Ale,Kuhnhenn Play In The Hay (Mango),8.5
+71433,2097,Kuhnhenn Brewing Company,American Wild Ale,Kuhnhenn Play In The Hay (Tangerine),8.5
+71434,2097,Kuhnhenn Brewing Company,American Wild Ale,Kuhnhenn Play In The Hay (Guava),8.5
+72104,2097,Kuhnhenn Brewing Company,Dunkelweizen,Kuhnhenn Dunkel Weiss,5.5
+72790,2097,Kuhnhenn Brewing Company,Flanders Oud Bruin,Kuhnhenn Cherry Olde Brune (DUPLICATE),10.5
+73085,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn Tangerine IPA,6.0
+73087,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn Golden IPA,6.0
+73105,2097,Kuhnhenn Brewing Company,Märzen / Oktoberfest,Kuhnhenn Fest,4.75
+74901,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Convolution Braggot,15.0
+75052,2097,Kuhnhenn Brewing Company,American IPA,Kuhnhenn 313 Ale,7.2
+75370,2097,Kuhnhenn Brewing Company,American Adjunct Lager,Kuhnhenn Imperial Classic American Pilsner,6.5
+75371,2097,Kuhnhenn Brewing Company,English Dark Mild Ale,Kuhnhenn Conundrum,3.8
+75372,2097,Kuhnhenn Brewing Company,Bière de Garde,Kuhnhenn Loco Yokel,6.5
+75632,2097,Kuhnhenn Brewing Company,Doppelbock,Kuhnhenn Equibock,7.25
+76528,2097,Kuhnhenn Brewing Company,American Brown Ale,Kuhnhenn Double Nut Brown,6.8
+76673,2097,Kuhnhenn Brewing Company,Belgian Strong Pale Ale,Kuhnhenn Duvil In Ms Jones Ale,8.5
+76716,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Chocolate Pumpkin Braggot,16.0
+76875,2097,Kuhnhenn Brewing Company,Braggot,Kuhnhenn Dark Heathen Braggot,16.0
+10483,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",Hefeweizen,Hakusekikan Niwa Weisse - Shizen Beer,5.0
+10515,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",English Barleywine,Hakusekikan Barley Wine,14.5
+10516,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",Belgian Strong Pale Ale,Hakusekikan Crystal Ale,10.0
+10542,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",Belgian Strong Dark Ale,Hakusekikan Brown Ale,8.0
+10580,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",English Pale Ale,Hakusekikan Pale Ale,5.0
+24374,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",Smoked Beer,Hakusekikan Smoke Ale,5.0
+25241,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",American Barleywine,Hakusekikan Super Vintage,14.3
+25242,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",American Barleywine,Hakusekikan Hurricane,15.0
+50364,3704,"Stone Iwamoto Co., Ltd / Hakusekikan Beer Restaurant BACCHUS",Lambic - Unblended,Hakusekikan Shizen Bakushu,5.5
+8304,3835,Drake's Brewing Co.,Extra Special / Strong Bitter (ESB),Drake's Amber Ale,5.9
+8632,3835,Drake's Brewing Co.,Kölsch,Drake's Blonde Ale,4.8
+9510,3835,Drake's Brewing Co.,American Amber / Red Ale,Expedition Ale,7.0
+10308,3835,Drake's Brewing Co.,American IPA,Drake's IPA,7.0
+12172,3835,Drake's Brewing Co.,Russian Imperial Stout,Drake's Drakonic Imperial Stout,8.75
+14846,3835,Drake's Brewing Co.,Hefeweizen,Drake's Hefe-weizen,4.9
+16537,3835,Drake's Brewing Co.,Belgian Strong Pale Ale,Drake's Belgian Ale,7.1
+16553,3835,Drake's Brewing Co.,Russian Imperial Stout,Drake's Port Barrel Imperial Stout,11.0
+19129,3835,Drake's Brewing Co.,Scotch Ale / Wee Heavy,Drake's Jolly Rodger,9.0
+19800,3835,Drake's Brewing Co.,American Pale Lager,Drake's Zatec Pilsner,4.8
+22273,3835,Drake's Brewing Co.,American Double / Imperial IPA,Drake's Denogginizer,9.75
+24481,3835,Drake's Brewing Co.,American Barleywine,Drake's Anniversary Ale,11.0
+25095,3835,Drake's Brewing Co.,American Pale Ale (APA),Drake's 1500 Pale Ale,5.2
+27288,3835,Drake's Brewing Co.,American Barleywine,Drake's Barrel Aged Barley Wine,14.7
+27290,3835,Drake's Brewing Co.,Scotch Ale / Wee Heavy,Drake's Barrel Aged Jolly Rodger,11.0
+27706,3835,Drake's Brewing Co.,American Barleywine,Drake's Barrel Aged Anniversary Lager,13.7
+33144,3835,Drake's Brewing Co.,American IPA,Harvest,6.5
+35071,3835,Drake's Brewing Co.,American Barleywine,Drake's Bourbon Barrel Aged Barley Wine,11.1
+35363,3835,Drake's Brewing Co.,American Double / Imperial IPA,Hop Salad,9.0
+35399,3835,Drake's Brewing Co.,Old Ale,Drake's Barrel Aged Olde Ale,10.24
+36014,3835,Drake's Brewing Co.,American Barleywine,Drake's Bourbon Barrel Barley Wine (Barrel Aged Series #4),10.37
+39017,3835,Drake's Brewing Co.,Scotch Ale / Wee Heavy,Drake's Brandy Barrel Aged Jolly Rodger,14.7
+39604,3835,Drake's Brewing Co.,Rye Beer,Drake's Rye Wine,12.0
+41942,3835,Drake's Brewing Co.,American Barleywine,Drake's FrankenWine,12.0
+42559,3835,Drake's Brewing Co.,English Pale Mild Ale,Drake's Jackie Chiles Mild,5.8
+44068,3835,Drake's Brewing Co.,Belgian Pale Ale,Drake's William Holden Belgian Golden,5.0
+44693,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Batch 2000,8.5
+44801,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Bourbon Barrel Aged Imperial Stout,10.5
+44803,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Port Barrel Aged Imperial Stout With Blueberries And Brett,11.0
+44814,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Port Barrel Aged Imperial Stout With Cherries And Brett,11.0
+45184,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Pinot Noir Barrel Aged Imperial Stout,8.5
+45870,3835,Drake's Brewing Co.,American Double / Imperial IPA,Drake's Rodgers Last Stand,10.4
+46649,3835,Drake's Brewing Co.,American Double / Imperial IPA,Drake's Hopocalypse,9.25
+47671,3835,Drake's Brewing Co.,Tripel,Drake's George Brett Triple,8.5
+47676,3835,Drake's Brewing Co.,American Barleywine,Brewers Droop Barleywine,9.5
+51324,3835,Drake's Brewing Co.,American Wild Ale,Drake's It's Fity,6.5
+51728,3835,Drake's Brewing Co.,American IPA,Aroma Coma,6.7
+52989,3835,Drake's Brewing Co.,American IPA,Bass Akwards,6.9
+59587,3835,Drake's Brewing Co.,American Amber / Red Ale,Drake's Red Eye,6.5
+62686,3835,Drake's Brewing Co.,American Black Ale,Chinookian Dark IPA,7.5
+63504,3835,Drake's Brewing Co.,American Wild Ale,Brett Butler,9.0
+63507,3835,Drake's Brewing Co.,American Wild Ale,Wyld Stallyns,7.9
+63630,3835,Drake's Brewing Co.,American Wild Ale,Volte-Face,5.5
+63631,3835,Drake's Brewing Co.,American Porter,The Creator Has A Mastertape,6.0
+63632,3835,Drake's Brewing Co.,American Double / Imperial Stout,Kadath Decoded,10.0
+63994,3835,Drake's Brewing Co.,American Pale Ale (APA),Alpha Session,3.8
+64372,3835,Drake's Brewing Co.,American Amber / Red Ale,Drake's Jolly Rodger 2010 Imperial Red Ale,8.0
+64726,3835,Drake's Brewing Co.,American Wild Ale,Brettamber,6.8
+65661,3835,Drake's Brewing Co.,Rye Beer,Drake's Grain-Brain Rye Wine,11.0
+66481,3835,Drake's Brewing Co.,American IPA,Aroma Prieta,6.5
+66637,3835,Drake's Brewing Co.,American Barleywine,Drake's Bourbon Barrel Aged FrankenWine,12.0
+67177,3835,Drake's Brewing Co.,American Barleywine,Drake's Nyack,12.0
+67567,3835,Drake's Brewing Co.,American IPA,2011 Symposium IPA,7.5
+67973,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drakonic Imperial Stout,8.75
+68547,3835,Drake's Brewing Co.,American Wild Ale,Drake's Dark Diggler,11.0
+68611,3835,Drake's Brewing Co.,American Pale Ale (APA),Drake’s Reunion Pale Ale,5.5
+68803,3835,Drake's Brewing Co.,American Wild Ale,Drake's Chardi's Trippel,10.0
+68807,3835,Drake's Brewing Co.,American Wild Ale,Drake's Simian Sour,9.0
+68808,3835,Drake's Brewing Co.,American Barleywine,Drake's Brandy Witches,10.0
+68809,3835,Drake's Brewing Co.,American Black Ale,Drake's Batch 3000,5.5
+68860,3835,Drake's Brewing Co.,American Porter,Drake's Black Robusto Porter,7.0
+70909,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's How Merlot Can You Go?,7.75
+70921,3835,Drake's Brewing Co.,American Double / Imperial Stout,"Drake's Drew ""Berry""more",8.75
+71436,3835,Drake's Brewing Co.,American Wild Ale,Drake's Dark Duck,8.0
+72734,3835,Drake's Brewing Co.,American Barleywine,Drake's Urban Bourbon,10.0
+74112,3835,Drake's Brewing Co.,American Double / Imperial Stout,Portly Imp,8.75
+74647,3835,Drake's Brewing Co.,Irish Dry Stout,Drake's Dry Stout,6.5
+74673,3835,Drake's Brewing Co.,American Double / Imperial Stout,Drake's Midnight Run,8.75
+74674,3835,Drake's Brewing Co.,American Barleywine,Drake's Smooth Operator – Stygian Barleywine,9.75
+75182,3835,Drake's Brewing Co.,American Stout,Coffin Varnish Stout,7.0
+75202,3835,Drake's Brewing Co.,American Black Ale,Drake's Jolly Rodger 2011,8.75
+75203,3835,Drake's Brewing Co.,American Double / Imperial Stout,Sip Sip Hooray,8.75
+75275,3835,Drake's Brewing Co.,American Blonde Ale,Brette Davis Eyes,6.0
+75909,3835,Drake's Brewing Co.,English Brown Ale,C.S. Brown,4.5
+75910,3835,Drake's Brewing Co.,Saison / Farmhouse Ale,Pink Boots Saison,6.0
+75911,3835,Drake's Brewing Co.,American Wild Ale,Sir Francis Dre's IPA,8.0
+75912,3835,Drake's Brewing Co.,American Strong Ale,Total Recall,8.0
+12132,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Pale Ale,Alvinne Blond,6.0
+24170,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Dark Ale,Alvinne Bruin,6.5
+24171,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Dark Ale,Balthazar,9.0
+25594,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Alvinne Blond Extra,7.1
+26929,6288,Picobrouwerij Alvinne / Den Bierzolder,Tripel,Alvinne Tripel,8.7
+27188,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Melchior,11.0
+28242,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Podge Belgian Imperial Stout,10.5
+32021,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Halleschelle,8.5
+32391,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Hik Bier Blond,7.0
+37540,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian IPA,Gaspar Ale,8.0
+40983,6288,Picobrouwerij Alvinne / Den Bierzolder,Flanders Oud Bruin,Oud Bruin,5.2
+42318,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian IPA,Alvinne Extra Restyled,7.0
+42460,6288,Picobrouwerij Alvinne / Den Bierzolder,Saison / Farmhouse Ale,'n Maurootje Lauwse Saison,6.0
+48377,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Melchior Oak Aged Calvados Barrel,11.5
+48401,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Melchior Oak Aged Bourgogne Barrel,11.0
+48403,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Podge Oak Aged Bourgogne Barrel (The Oak Podge),10.5
+48404,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Pipedream,7.8
+48956,6288,Picobrouwerij Alvinne / Den Bierzolder,Herbed / Spiced Beer,Festina Lente,7.0
+48999,6288,Picobrouwerij Alvinne / Den Bierzolder,American Wild Ale,Kerasus,5.5
+51514,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Dark Ale,Balthazar Oak Aged,9.0
+51805,6288,Picobrouwerij Alvinne / Den Bierzolder,Saison / Farmhouse Ale,Alvino Oak Aged Bourgogne Barrel,5.5
+53454,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Alvinne Mano Negra,10.0
+54963,6288,Picobrouwerij Alvinne / Den Bierzolder,Smoked Beer,Caper Fumatis,6.3
+55185,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Dark Ale,De Eycken Balthazar,9.0
+55248,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Pale Ale,Bintjesbier,6.3
+55282,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Pale Ale,Lex'ke,6.3
+57187,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Dertig (30),8.0
+57950,6288,Picobrouwerij Alvinne / Den Bierzolder,Smoked Beer,Alvinne Chelmsford Oak Smoked Porter,5.1
+59124,6288,Picobrouwerij Alvinne / Den Bierzolder,Fruit / Vegetable Beer,Alvinne Oak Aged Kerasus,6.5
+59952,6288,Picobrouwerij Alvinne / Den Bierzolder,Flanders Oud Bruin,Morpheus Wild,5.9
+60084,6288,Picobrouwerij Alvinne / Den Bierzolder,Flanders Oud Bruin,Cuvee Freddy,8.0
+60091,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Podge Oak Aged Glenrothes Barrel,10.5
+60093,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Alvinne Mano Negra Oak Aged Glenrothes Barrel,10.0
+60191,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Melchior Bourbon Barrel Aged,11.5
+61380,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Dark Ale,Bolleville Calvados,10.0
+61733,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,The Oak Melochior,11.0
+62624,6288,Picobrouwerij Alvinne / Den Bierzolder,American IPA,Alvinne Hop Trilogy Centennial,7.1
+62625,6288,Picobrouwerij Alvinne / Den Bierzolder,American IPA,Alvinne Hop Trilogy Columbus,7.1
+62626,6288,Picobrouwerij Alvinne / Den Bierzolder,American IPA,Alvinne Hop Trilogy Simcoe,7.1
+63808,6288,Picobrouwerij Alvinne / Den Bierzolder,English Bitter,Alvinne Freaky,3.8
+64220,6288,Picobrouwerij Alvinne / Den Bierzolder,American Wild Ale,Wild Undressed,5.2
+64247,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Pale Ale,Morpheus Extra R.A.,7.1
+64419,6288,Picobrouwerij Alvinne / Den Bierzolder,English Bitter,Alvinnes Naked Ladies,4.4
+64421,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Alvinne Mano Negra Oak Aged Bladnoch Barrel,10.0
+64572,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,Melchior Mackmyra Barrel Oak Aged,11.0
+66035,6288,Picobrouwerij Alvinne / Den Bierzolder,Russian Imperial Stout,Morpheus Dark,10.2
+68576,6288,Picobrouwerij Alvinne / Den Bierzolder,English Barleywine,Night Owl (with Birdsong Brewery),14.7
+68683,6288,Picobrouwerij Alvinne / Den Bierzolder,English Brown Ale,Alvinne Freaky Dark,3.8
+68880,6288,Picobrouwerij Alvinne / Den Bierzolder,Tripel,Morpheus Tripel,8.7
+69422,6288,Picobrouwerij Alvinne / Den Bierzolder,Witbier,Alvinne/Urthel Witte Roock,6.0
+71056,6288,Picobrouwerij Alvinne / Den Bierzolder,Quadrupel (Quad),Cuvee D'Erpigny,15.0
+71084,6288,Picobrouwerij Alvinne / Den Bierzolder,American IPA,Alvinne Vuur & Vlam,6.3
+71678,6288,Picobrouwerij Alvinne / Den Bierzolder,Belgian Strong Pale Ale,"Melchior ""The Oak Melchior""",11.0
+73089,6288,Picobrouwerij Alvinne / Den Bierzolder,American Wild Ale,Morepheus Undressed Wild With Boskoop Grapes,5.2
+73625,6288,Picobrouwerij Alvinne / Den Bierzolder,American Double / Imperial Stout,Beer GeeK Wedding,13.0
+21771,10796,Flying Monkeys Craft Brewery,American Amber / Red Ale,Robert Simpson Confederation Ale,5.0
+37350,10796,Flying Monkeys Craft Brewery,American Pale Lager,Robert Simpson Sugarbush Lager,4.5
+44024,10796,Flying Monkeys Craft Brewery,Light Lager,Robert Simpson AntiGravity Light Ale,4.0
+45423,10796,Flying Monkeys Craft Brewery,American Pale Ale (APA),Pale Ale,6.0
+49983,10796,Flying Monkeys Craft Brewery,American Pale Ale (APA),Flying Monkeys Hoptical Illusion,5.2
+53832,10796,Flying Monkeys Craft Brewery,American Black Ale,Flying Monkeys Netherworld Cascadian Dark Ale,6.2
+58770,10796,Flying Monkeys Craft Brewery,American IPA,Flying Monkeys Smash Bomb Atomic IPA,6.0
+62135,10796,Flying Monkeys Craft Brewery,American IPA,Flying Monkeys Smashjezebelhoneybomb,6.0
+63783,10796,Flying Monkeys Craft Brewery,American Double / Imperial Stout,Flying Monkeys Adils Bad Ass Chaos Theory Imperial Wheat Stout,9.0
+63784,10796,Flying Monkeys Craft Brewery,American Blonde Ale,Flying Monkeys Sidewalk Paint,4.0
+64377,10796,Flying Monkeys Craft Brewery,American Porter,Flying Monkeys 38 (Birthday Cake Beer),4.2
+68187,10796,Flying Monkeys Craft Brewery,American Barleywine,Flying Monkeys Riley Wine,18.0
+68846,10796,Flying Monkeys Craft Brewery,Baltic Porter,Flying Monkeys Waffleface Maple Imperial Baltic Porter,14.5
+70320,10796,Flying Monkeys Craft Brewery,Saison / Farmhouse Ale,Flying Monkeys Manifest Destiny (Black Saison),9.0
+70321,10796,Flying Monkeys Craft Brewery,American Double / Imperial IPA,Flying Monkeys Alpha Fornication,13.3
+70322,10796,Flying Monkeys Craft Brewery,Saison / Farmhouse Ale,Flying Monkeys Blanche Épicée (White Saison),9.2
+70323,10796,Flying Monkeys Craft Brewery,American Black Ale,Flying Monkeys Super Collider Black IPA,12.0
+70324,10796,Flying Monkeys Craft Brewery,American Double / Imperial IPA,Flying Monkeys Quint,18.0
+70325,10796,Flying Monkeys Craft Brewery,Saison / Farmhouse Ale,Flying Monkeys Sailor’s Warning,5.5
+70326,10796,Flying Monkeys Craft Brewery,Munich Dunkel Lager,Flying Monkeys Slam Dunkel,9.2
+70399,10796,Flying Monkeys Craft Brewery,American Double / Imperial Stout,Flying Monkeys Big Nib,8.0
+70419,10796,Flying Monkeys Craft Brewery,American Double / Imperial IPA,Flying Monkeys Serendipity,14.0
+70608,10796,Flying Monkeys Craft Brewery,Cream Ale,Flying Monkeys Bubble Scream Ale,5.0
+70624,10796,Flying Monkeys Craft Brewery,Fruit / Vegetable Beer,Flying Monkeys Orangemungeous,5.0
+70658,10796,Flying Monkeys Craft Brewery,Saison / Farmhouse Ale,Flying Monkeys White Saison,7.5
+72171,10796,Flying Monkeys Craft Brewery,American Double / Imperial IPA,Flying Monkeys Super Collider Double IPA,12.4
+73499,10796,Flying Monkeys Craft Brewery,English Porter,Flying Monkeys Vanilla Porter,5.0
+22516,11031,Brouwerij De Molen,Doppelbock,Kruier,7.1
+24429,11031,Brouwerij De Molen,Belgian Dark Ale,Oud Hollands Tuig,5.2
+24462,11031,Brouwerij De Molen,Belgian Strong Dark Ale,Jacobs Ladder,7.2
+24474,11031,Brouwerij De Molen,Belgian Strong Dark Ale,Olivier's Molenbier,9.2
+24973,11031,Brouwerij De Molen,Belgian Pale Ale,Borefts Blond,6.5
+26349,11031,Brouwerij De Molen,Bock,Borefts Bok,7.2
+28111,11031,Brouwerij De Molen,Belgian Strong Pale Ale,Tik,9.5
+30295,11031,Brouwerij De Molen,Belgian Pale Ale,Oude Rijn,6.1
+30297,11031,Brouwerij De Molen,Foreign / Export Stout,Borefts Stout,7.0
+30539,11031,Brouwerij De Molen,Tripel,Borefts Tripel,9.5
+32451,11031,Brouwerij De Molen,English Bitter,Engels,4.5
+34099,11031,Brouwerij De Molen,California Common / Steam Beer,Borefts Stoombier,5.4
+35332,11031,Brouwerij De Molen,Extra Special / Strong Bitter (ESB),Woerdens Kanon,7.7
+36696,11031,Brouwerij De Molen,Maibock / Helles Bock,Lentebok,6.5
+40663,11031,Brouwerij De Molen,Doppelbock,Winterbok (Winterbock),8.2
+40667,11031,Brouwerij De Molen,American Barleywine,Amarillo's Winterwarmer (for PINT),9.2
+40734,11031,Brouwerij De Molen,Belgian Strong Dark Ale,Tien,10.0
+40959,11031,Brouwerij De Molen,Baltic Porter,Tsarina Esra Imperial Porter,11.0
+41867,11031,Brouwerij De Molen,Russian Imperial Stout,Disputin - Russian Imperial Stout,11.0
+42317,11031,Brouwerij De Molen,Maibock / Helles Bock,Jong En Onbedorven,7.2
+42445,11031,Brouwerij De Molen,Foreign / Export Stout,Pek & Veren,8.0
+42935,11031,Brouwerij De Molen,California Common / Steam Beer,Stoombier Gedrooghopt Met Safir,5.7
+43289,11031,Brouwerij De Molen,American Amber / Red Ale,Amerikaans Gedrooghopt Met Amarillo,4.5
+43346,11031,Brouwerij De Molen,Foreign / Export Stout,SSS,9.99
+43421,11031,Brouwerij De Molen,English Porter,Hamer & Sikkel,5.2
+43430,11031,Brouwerij De Molen,Dubbel,Donder & Bliksem,8.2
+43432,11031,Brouwerij De Molen,American Double / Imperial IPA,Storm & Averij,9.2
+43544,11031,Brouwerij De Molen,English Porter,1914 Porter,5.8
+44895,11031,Brouwerij De Molen,Tripel,Heen & Weer,9.5
+44903,11031,Brouwerij De Molen,Irish Red Ale,Ruig & Rood,9.5
+45342,11031,Brouwerij De Molen,Bock,Borefts Turf Bock 2008,7.7
+45860,11031,Brouwerij De Molen,English Barleywine,Bommen & Granaten,15.2
+46409,11031,Brouwerij De Molen,California Common / Steam Beer,Ceruesia,5.6
+46426,11031,Brouwerij De Molen,Smoked Beer,"Bloed, Zweet & Tranen",8.1
+46596,11031,Brouwerij De Molen,American Double / Imperial IPA,Amarillo,9.2
+47437,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis,10.2
+47641,11031,Brouwerij De Molen,Lambic - Fruit,Morellen Lambiek,6.2
+48093,11031,Brouwerij De Molen,Tripel,Lusten & Lasten,9.2
+48357,11031,Brouwerij De Molen,Flanders Oud Bruin,Vlaams Hollands,5.6
+50303,11031,Brouwerij De Molen,Russian Imperial Stout,Eiken Hel & Verdoemenis,11.0
+52132,11031,Brouwerij De Molen,Russian Imperial Stout,Hemel & Aarde,9.5
+52423,11031,Brouwerij De Molen,American Double / Imperial Stout,Heaven & Hell,10.2
+52613,11031,Brouwerij De Molen,English Barleywine,Lang & Kaal,16.0
+53172,11031,Brouwerij De Molen,American IPA,Vuur & Vlam,6.2
+53175,11031,Brouwerij De Molen,American Double / Imperial IPA,Heil & Zegen,10.8
+53376,11031,Brouwerij De Molen,Bock,Borefts Bok 2009,7.2
+53844,11031,Brouwerij De Molen,American Double / Imperial Stout,Kopi Loewak,9.5
+53869,11031,Brouwerij De Molen,Eisbock,De Molen IJsbock Woodchips In 40 Yrs Old Cognac,16.4
+53873,11031,Brouwerij De Molen,Eisbock,De Molen IJsbock Simcoe Dry Hopped,16.4
+54961,11031,Brouwerij De Molen,Russian Imperial Stout,Tsarina Esra Reserva,11.0
+55164,11031,Brouwerij De Molen,Saison / Farmhouse Ale,Ton Sur Ton Saison,10.5
+55184,11031,Brouwerij De Molen,Belgian IPA,Kannen & Kruiken,6.2
+55197,11031,Brouwerij De Molen,Russian Imperial Stout,Mout & Mocca,9.5
+55514,11031,Brouwerij De Molen,Eisbock,De Molen IJsbock,16.4
+55555,11031,Brouwerij De Molen,Russian Imperial Stout,Hemel & Aarde Bruichladdich Barrel,10.0
+55670,11031,Brouwerij De Molen,American Strong Ale,Lood & Oud IJzer,10.4
+55740,11031,Brouwerij De Molen,American IPA,De Molen Wikken & Wegen,6.2
+55885,11031,Brouwerij De Molen,Russian Imperial Stout,Steen & Been (Stone & Bone),11.5
+56371,11031,Brouwerij De Molen,Lambic - Fruit,De Molen T 'Ooievaartje,5.2
+56700,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis 666,10.0
+57016,11031,Brouwerij De Molen,Doppelbock,Revelation Cat Triple Hop Bock,9.2
+57357,11031,Brouwerij De Molen,Rauchbier,Rook & Vuur,8.2
+57575,11031,Brouwerij De Molen,Weizenbock,Mikkel & Menno,7.2
+57892,11031,Brouwerij De Molen,English India Pale Ale (IPA),Premiant Hopburst,6.2
+57982,11031,Brouwerij De Molen,Russian Imperial Stout,Black Jack,12.5
+58376,11031,Brouwerij De Molen,English Bitter,Beaches & Peaches,3.5
+58674,11031,Brouwerij De Molen,Russian Imperial Stout,Ziel & Zaligheid,11.0
+58957,11031,Brouwerij De Molen,American IPA,Lente Hop,6.2
+59368,11031,Brouwerij De Molen,American Double / Imperial Pilsner,Saaz Hopburst,6.2
+59485,11031,Brouwerij De Molen,American Double / Imperial Stout,Cuvée 2,11.5
+59635,11031,Brouwerij De Molen,Russian Imperial Stout,Black Isak,11.2
+59929,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis Misto B.A.,12.0
+60040,11031,Brouwerij De Molen,Russian Imperial Stout,Bont & Blauw,11.0
+60117,11031,Brouwerij De Molen,American Black Ale,Stout & Hop,9.2
+60235,11031,Brouwerij De Molen,Belgian Strong Dark Ale,Mooi & Meedogenloos,10.2
+60746,11031,Brouwerij De Molen,Lambic - Fruit,Fris & Frutig Morellen Lambik,5.6
+61611,11031,Brouwerij De Molen,Scottish Gruit / Ancient Herbed Ale,Menno & Jens,7.5
+61712,11031,Brouwerij De Molen,Russian Imperial Stout,Black Damnation Molen's Steam Edition,13.0
+61977,11031,Brouwerij De Molen,English India Pale Ale (IPA),Op & Top,4.5
+62071,11031,Brouwerij De Molen,American Blonde Ale,Blond Met Een Pond,6.2
+62235,11031,Brouwerij De Molen,Czech Pilsener,Donder & Bliksem Original Version,5.9
+62379,11031,Brouwerij De Molen,Russian Imperial Stout,Black Damnation Molen's 666 Edition,13.0
+62575,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis Bordeaux B.A.,13.0
+62585,11031,Brouwerij De Molen,Bock,Borefts Bock 2010,6.2
+63161,11031,Brouwerij De Molen,English Porter,Juleøl & Kerstbier,8.5
+63171,11031,Brouwerij De Molen,American IPA,Zomer Hop,6.2
+64636,11031,Brouwerij De Molen,American IPA,Sladek Hopburst,6.2
+64681,11031,Brouwerij De Molen,Russian Imperial Stout,Bat Out Of Hell,9.18
+64684,11031,Brouwerij De Molen,Russian Imperial Stout,Bat Out Of Hell Oak Aged Version,9.18
+66079,11031,Brouwerij De Molen,Russian Imperial Stout,Gajes & Geteisem,11.0
+66371,11031,Brouwerij De Molen,Russian Imperial Stout,List & Bedrog Oak Aged,11.9
+66685,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis Wild Turkey B.A.,10.2
+67531,11031,Brouwerij De Molen,Keller Bier / Zwickel Bier,Borefts Pilz,5.2
+67981,11031,Brouwerij De Molen,Smoked Beer,Freya & Thor,8.9
+68327,11031,Brouwerij De Molen,American Porter,Wilde Porter,6.2
+68460,11031,Brouwerij De Molen,American Barleywine,Weer & Wind Bourbon B.A.,16.2
+69699,11031,Brouwerij De Molen,English Barleywine,De Molen Mooi & Machtig (Cognac B.A.),17.4
+69730,11031,Brouwerij De Molen,American Barleywine,De Molen Bommen & Granaten Cascade Dry Hopped,15.2
+70313,11031,Brouwerij De Molen,Russian Imperial Stout,Mout & Mocca 2,10.0
+71423,11031,Brouwerij De Molen,American Double / Imperial IPA,Dubbel And Dwars,8.2
+71760,11031,Brouwerij De Molen,Russian Imperial Stout,De Molen Hot & Spicy,10.2
+71964,11031,Brouwerij De Molen,Smoked Beer,De Molen Geboren & Getogen,4.0
+72709,11031,Brouwerij De Molen,American Strong Ale,Cuvée,12.7
+72870,11031,Brouwerij De Molen,Hefeweizen,Rijn & Veen,5.1
+72871,11031,Brouwerij De Molen,Doppelbock,Arkbock,10.8
+73136,11031,Brouwerij De Molen,American Black Ale,V Years - 20K,7.2
+73404,11031,Brouwerij De Molen,Vienna Lager,Fresh-hopped Bohemian,6.2
+73453,11031,Brouwerij De Molen,American Double / Imperial Stout,Eer & Geweten (Honor & Conscience),11.0
+73525,11031,Brouwerij De Molen,American Double / Imperial IPA,Amarillo Upgreyde,9.2
+73527,11031,Brouwerij De Molen,Bock,Bock 2011,6.2
+73528,11031,Brouwerij De Molen,American Black Ale,Festival Smoked Black IPA,8.8
+73668,11031,Brouwerij De Molen,Smoked Beer,Hart & Ziel,11.1
+73705,11031,Brouwerij De Molen,Russian Imperial Stout,Hel & Verdoemenis MacAllan BA,11.0
+73706,11031,Brouwerij De Molen,Russian Imperial Stout,Rasputin Bruichladdich BA,11.4
+74887,11031,Brouwerij De Molen,American Double / Imperial Stout,Stout & Hop (Sorachi Ace),7.5
+75365,11031,Brouwerij De Molen,American Amber / Red Ale,Bed And Breakfast,4.4
+76333,11031,Brouwerij De Molen,Russian Imperial Stout,Tsarina Esra Imperial Porter Cognac,12.0
+76706,11031,Brouwerij De Molen,Fruit / Vegetable Beer,De Molen KersBier Mummia Barrel,4.5
+77214,11031,Brouwerij De Molen,Russian Imperial Stout,Nacht & Ontij,13.0
+28793,13307,Mikkeller ApS,American IPA,Simcoe Single Hop IPA,6.9
+28877,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Breakfast,7.5
+29007,13307,Mikkeller ApS,American Barleywine,Big Bad,11.0
+29688,13307,Mikkeller ApS,American IPA,Cascade Single Hop IPA,6.8
+33669,13307,Mikkeller ApS,Smoked Beer,ComOn Rauch,6.3
+33670,13307,Mikkeller ApS,American IPA,Stateside IPA,7.0
+33928,13307,Mikkeller ApS,American Brown Ale,Jackie Brown,5.9
+33929,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole,13.1
+33930,13307,Mikkeller ApS,American IPA,Centennial Single Hop IPA,6.8
+34359,13307,Mikkeller ApS,American Pale Ale (APA),Ping Pang Pale,6.5
+34731,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2006,10.0
+36139,13307,Mikkeller ApS,Russian Imperial Stout,X Imperial Stout 2006,16.0
+36314,13307,Mikkeller ApS,American Double / Imperial IPA,X Big Tony 2006,15.0
+37866,13307,Mikkeller ApS,American Strong Ale,HumlefrXXXd,9.0
+39720,13307,Mikkeller ApS,Baltic Porter,Til Fra (To From),8.0
+39775,13307,Mikkeller ApS,American Barleywine,Big Worse,12.0
+40849,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2007,11.0
+41007,13307,Mikkeller ApS,American Double / Imperial Pilsner,Draft Bear,8.0
+41009,13307,Mikkeller ApS,American Pale Ale (APA),All Others Pale,6.0
+41730,13307,Mikkeller ApS,American IPA,Green Gold,7.0
+41731,13307,Mikkeller ApS,American Double / Imperial Stout,X Imperial Stout 2007,15.0
+41732,13307,Mikkeller ApS,Fruit / Vegetable Beer,X Raspberry Brown 2007,11.0
+41733,13307,Mikkeller ApS,American Pale Ale (APA),X Hop Juice 2007 IBU,5.0
+41734,13307,Mikkeller ApS,Quadrupel (Quad),Monk's Elixir (Monk's Brew),10.0
+41735,13307,Mikkeller ApS,Lambic - Fruit,X Vesterbronx Kriek 2007,5.5
+43080,13307,Mikkeller ApS,Belgian Strong Pale Ale,It's Alive!,8.0
+45259,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Brunch One-for-One,10.0
+45770,13307,Mikkeller ApS,Witbier,Not Just Another Wit,7.4
+45993,13307,Mikkeller ApS,Baltic Porter,Fra Til (From To),8.0
+46018,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2008,11.0
+46987,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Brunch Weasel,10.9
+47562,13307,Mikkeller ApS,Belgian Pale Ale,It's Alright!,4.5
+47913,13307,Mikkeller ApS,Czech Pilsener,Czech-Style Pilsner (Czechet),4.6
+47914,13307,Mikkeller ApS,American Pale Ale (APA),Vibskov Emenius Mikkeller,6.0
+47917,13307,Mikkeller ApS,American Double / Imperial Stout,Xbeeriment Mikkeller Brewers United Belgian Stout,11.1
+47919,13307,Mikkeller ApS,American IPA,Warrior Single Hop IPA,6.9
+48238,13307,Mikkeller ApS,Belgian Strong Pale Ale,USAlive! (Alive),8.0
+48458,13307,Mikkeller ApS,American IPA,Nelson Sauvin Single Hop IPA,6.9
+49143,13307,Mikkeller ApS,American Double / Imperial IPA,Drikkeriget DIPA,10.1
+49238,13307,Mikkeller ApS,American Double / Imperial Stout,Sherry Barrel Aged Black As Hell,11.5
+49632,13307,Mikkeller ApS,American Double / Imperial Stout,Barrel Aged Black As Coal,12.3
+49650,13307,Mikkeller ApS,American IPA,Nugget Single Hop IPA,6.9
+50378,13307,Mikkeller ApS,Extra Special / Strong Bitter (ESB),Viking's Return,4.5
+50476,13307,Mikkeller ApS,Belgian Strong Pale Ale,Funky E Star,9.39
+51112,13307,Mikkeller ApS,Rauchbier,Barrel Aged Smoke A Ciggy,11.5
+51115,13307,Mikkeller ApS,American Strong Ale,Stella 0 (Festival Edition 2009),10.0
+51578,13307,Mikkeller ApS,American Pale Ale (APA),X Pale Ale,5.9
+51616,13307,Mikkeller ApS,American Pale Wheat Ale,Drink'in The Sun,3.9
+52654,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Brunch Weasel (Islay Edition),10.9
+52885,13307,Mikkeller ApS,Russian Imperial Stout,Whisky Barrel Black As The Night,13.0
+53522,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Brunch Weasel (Highland Edition),10.9
+54211,13307,Mikkeller ApS,American Double / Imperial IPA,I Beat YoU,9.75
+54282,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2009,10.9
+55048,13307,Mikkeller ApS,Herbed / Spiced Beer,Red/White Christmas,8.0
+55258,13307,Mikkeller ApS,American Pale Lager,Danish Dream,4.6
+55288,13307,Mikkeller ApS,American IPA,Amarillo Single Hop IPA,6.8
+55580,13307,Mikkeller ApS,American IPA,Tomahawk Single Hop IPA,6.9
+56069,13307,Mikkeller ApS,American IPA,Drikkeriget GIPA,6.6
+56372,13307,Mikkeller ApS,American Barleywine,BW5,15.02
+56755,13307,Mikkeller ApS,Doppelbock,Frelser,11.0
+56795,13307,Mikkeller ApS,American Double / Imperial Stout,X Imperial Stout - Calvados Barrel Aged,14.9
+56835,13307,Mikkeller ApS,American IPA,Chinook Single Hop IPA,6.9
+56836,13307,Mikkeller ApS,American Black Ale,Beer Hop Breakfast,7.5
+56842,13307,Mikkeller ApS,American Double / Imperial IPA,1000 IBU,9.6
+56860,13307,Mikkeller ApS,English India Pale Ale (IPA),East Kent Golding Single Hop IPA,6.9
+57591,13307,Mikkeller ApS,Cream Ale,Cream Ale,5.0
+57822,13307,Mikkeller ApS,Herbed / Spiced Beer,Dim Sum Beer,5.0
+57848,13307,Mikkeller ApS,Herbed / Spiced Beer,Dim Sum Beer Winter,5.0
+57869,13307,Mikkeller ApS,Baltic Porter,Til Via Fra (To Via From),8.0
+58023,13307,Mikkeller ApS,American Amber / Red Ale,Weinbrand Barrel-Aged Red Ale,10.0
+58359,13307,Mikkeller ApS,Belgian Strong Pale Ale,Nelson Sauvignon (Nelson Sauvin Brut),9.0
+58361,13307,Mikkeller ApS,American Pale Wheat Ale,Drink'in The Sun 10,2.9
+58396,13307,Mikkeller ApS,American Double / Imperial Stout,X Imperial Stout 2007 - Barrel Aged,15.0
+58449,13307,Mikkeller ApS,American IPA,X India Pale Ale,6.7
+58493,13307,Mikkeller ApS,American IPA,10.0,6.9
+58507,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (Peat Whiskey Edition),13.1
+58635,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (Rum Edition),13.1
+58675,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (Red Wine Edition),13.1
+58694,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (Bourbon Edition),13.1
+59250,13307,Mikkeller ApS,American Porter,Texas Ranger (Chipotle Porter),6.6
+59285,13307,Mikkeller ApS,American Double / Imperial Stout,Black Tie,11.5
+59638,13307,Mikkeller ApS,American Double / Imperial Stout,Hr. Frederiksen Væsel Brunch,10.7
+59639,13307,Mikkeller ApS,American Pale Ale (APA),Z Pale Ale,5.9
+59640,13307,Mikkeller ApS,Czech Pilsener,Vesterbro Pilsner,5.6
+59741,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Bacon,7.5
+59869,13307,Mikkeller ApS,Russian Imperial Stout,George,11.1
+59998,13307,Mikkeller ApS,Witbier,Vesterbro Wit,4.5
+59999,13307,Mikkeller ApS,Gueuze,Spontanale,5.0
+60030,13307,Mikkeller ApS,Belgian Strong Pale Ale,Yeast Series: Belgian Ale,8.0
+60031,13307,Mikkeller ApS,Belgian Strong Pale Ale,Yeast Series: Brettanomyces,8.0
+60032,13307,Mikkeller ApS,Hefeweizen,Yeast Series: Hefeweizen,8.0
+60033,13307,Mikkeller ApS,American Pale Lager,Yeast Series: Lager,8.0
+60034,13307,Mikkeller ApS,American Pale Ale (APA),Yeast Series: American-Style,8.0
+60173,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Breakfast (Speyside Edition),7.5
+60436,13307,Mikkeller ApS,American Double / Imperial Stout,Viktoria,8.8
+60438,13307,Mikkeller ApS,English Barleywine,Big V,15.0
+60646,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Breakfast (Bourbon Edition),10.7
+60654,13307,Mikkeller ApS,American Strong Ale,Drikkeriget CASA,9.3
+60757,13307,Mikkeller ApS,American Porter,Texas Ranger (Chipotle Porter) - Bourbon Barrel Aged,6.6
+61135,13307,Mikkeller ApS,American Double / Imperial IPA,1000 IBU - Barrel Aged,9.6
+61827,13307,Mikkeller ApS,Lambic - Fruit,Cherry Alive,9.0
+62095,13307,Mikkeller ApS,Bock,Bocky Vuur & Vlam Tribute,6.9
+62606,13307,Mikkeller ApS,American Double / Imperial Stout,Beer Geek Brunch Weasel (Bourbon Edition),12.7
+63156,13307,Mikkeller ApS,Fruit / Vegetable Beer,Ris A La M'ale,8.0
+63181,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (Cognac Edition),13.1
+63182,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole (White Wine Edition),13.1
+63588,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2010,10.9
+64033,13307,Mikkeller ApS,Baltic Porter,Fra Via Til (From Via To),8.0
+64570,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2009 Barrel Aged,11.0
+65151,13307,Mikkeller ApS,American Double / Imperial Stout,George! Bourbonfadlagret,12.12
+65674,13307,Mikkeller ApS,American IPA,Koppi Coffee IPA,6.9
+65814,13307,Mikkeller ApS,American IPA,Bravo Single Hop IPA,6.8
+65815,13307,Mikkeller ApS,Baltic Porter,Fra Via Til (From Via To) Bourbon Barrel Aged,8.0
+65816,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2010 - Rum Barrel Aged,10.9
+65874,13307,Mikkeller ApS,American Barleywine,Big Worse (Bourbon Edition),12.0
+65908,13307,Mikkeller ApS,American Pale Lager,Awesomesauce (Burger & Bun L.A. Lager),5.0
+65911,13307,Mikkeller ApS,Lambic - Fruit,Vesterbro Framboos Lambic,6.0
+65912,13307,Mikkeller ApS,Lambic - Fruit,Vesterbro Cassis Lambic,6.0
+66176,13307,Mikkeller ApS,American Barleywine,Big Worse (Red Wine Edition),12.0
+66374,13307,Mikkeller ApS,American IPA,Mt. Hood Single Hop IPA,6.8
+66497,13307,Mikkeller ApS,Tripel,Belgian Tripel,9.0
+66819,13307,Mikkeller ApS,American Pale Lager,LA Lager,5.0
+67982,13307,Mikkeller ApS,Lambic - Fruit,Spontankriek,7.7
+67995,13307,Mikkeller ApS,American Wild Ale,Sur Munk,9.99
+68159,13307,Mikkeller ApS,Belgian Strong Dark Ale,Drink Your Sorrows Away,11.99
+68323,13307,Mikkeller ApS,American Wild Ale,It's Alive Hvidvinsfadlagret,9.0
+68582,13307,Mikkeller ApS,Lambic - Fruit,Spontanframboos,7.7
+69543,13307,Mikkeller ApS,American Double / Imperial Stout,Shaun B-day (Hill Farmstead 1st Anniversary) Imperial Stout,9.5
+69897,13307,Mikkeller ApS,American IPA,Super Galena Single Hop IPA,6.8
+69898,13307,Mikkeller ApS,American IPA,Galena Single Hop IPA,6.8
+69899,13307,Mikkeller ApS,American IPA,Citra Single Hop IPA,6.9
+70005,13307,Mikkeller ApS,American IPA,Columbus Single Hop IPA,6.9
+70007,13307,Mikkeller ApS,American IPA,Magnum Single Hop IPA,6.8
+70010,13307,Mikkeller ApS,American IPA,Sorachi Ace Single Hop IPA,6.8
+70064,13307,Mikkeller ApS,American IPA,Tettnanger Single Hop IPA,6.8
+70065,13307,Mikkeller ApS,American IPA,Willamette Single Hop IPA,6.8
+70133,13307,Mikkeller ApS,American IPA,Cluster Single Hop IPA,6.9
+70134,13307,Mikkeller ApS,American IPA,Palisade Single Hop IPA,6.8
+70195,13307,Mikkeller ApS,American IPA,Challenger Single Hop IPA,6.8
+70609,13307,Mikkeller ApS,Russian Imperial Stout,Black Hole Barrel Aged Edition Tequila,13.1
+70667,13307,Mikkeller ApS,American Wild Ale,Nelson Alive!,8.0
+70728,13307,Mikkeller ApS,American Pale Wheat Ale,Drink'in The Sun 11,2.4
+70739,13307,Mikkeller ApS,American Double / Imperial IPA,Anniversary Ed. 1 Vesterbro IIIPA,11.0
+71014,13307,Mikkeller ApS,American Pale Ale (APA),Hop Bomb Challenge,6.0
+71015,13307,Mikkeller ApS,American Amber / Red Ale,Kihoshk F’all Thørsth,5.0
+71161,13307,Mikkeller ApS,Lambic - Fruit,Sour Bitch,7.7
+71604,13307,Mikkeller ApS,American IPA,Thørsth Bonanza,5.0
+72372,13307,Mikkeller ApS,American Pale Ale (APA),A Pale Ale,6.0
+72374,13307,Mikkeller ApS,American Double / Imperial IPA,Simcoe Single Hop Imperial IPA,10.9
+72377,13307,Mikkeller ApS,American Stout,Vesterbro Kaffestout,7.0
+72378,13307,Mikkeller ApS,American Pale Ale (APA),1000 IBU Light,4.9
+72687,13307,Mikkeller ApS,American Pale Ale (APA),Exotic Punch,5.0
+73282,13307,Mikkeller ApS,Saison / Farmhouse Ale,Gypsy Juice,8.5
+73333,13307,Mikkeller ApS,Lambic - Fruit,Spontancassis,7.7
+73429,13307,Mikkeller ApS,American Wild Ale,Stella 2 - Festival Special Edition 2011,8.4
+73438,13307,Mikkeller ApS,Lambic - Fruit,Spontancranberry,7.7
+73442,13307,Mikkeller ApS,Lambic - Fruit,Spontanredcurrant,7.7
+73518,13307,Mikkeller ApS,American Double / Imperial Stout,Abel,11.5
+73550,13307,Mikkeller ApS,American IPA,Invasion IPA,7.0
+73554,13307,Mikkeller ApS,Baltic Porter,Fra Via Til Bourbon (Duplicate #2),8.0
+73555,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa’s Little Helper 2010 - Rum Barrel Aged,10.9
+74277,13307,Mikkeller ApS,Belgian Pale Ale,Nelson Sauvin Brut,9.0
+74711,13307,Mikkeller ApS,Lambic - Fruit,Spontangrape,7.7
+75099,13307,Mikkeller ApS,Fruit / Vegetable Beer,KIIN KIIN,5.0
+75138,13307,Mikkeller ApS,Witbier,Vesterbro Toilet Bajer,6.0
+75196,13307,Mikkeller ApS,Belgian Strong Dark Ale,Santa's Little Helper 2011,10.9
+75354,13307,Mikkeller ApS,American Porter,Porter,8.0
+75631,13307,Mikkeller ApS,Baltic Porter,Fra Via Til Bourbon (Duplicate),8.0
+75685,13307,Mikkeller ApS,Keller Bier / Zwickel Bier,Wet Hop Kellerbier / Fresh Hop Kellerbier,5.5
+75815,13307,Mikkeller ApS,American Porter,Texas Ranger (Chipotle Porter) - Speyside Barrel Aged,6.6
+75828,13307,Mikkeller ApS,American Double / Imperial IPA,Hoppy Lovin' Christmas,7.8
+76399,13307,Mikkeller ApS,Baltic Porter,Til Fra Via (To From Via),8.0
+76552,13307,Mikkeller ApS,American Amber / Red Ale,Moonlight/Mikkeller The Bug Hunt,6.5
+76894,13307,Mikkeller ApS,Herbed / Spiced Beer,The Big Hunt,6.5
+77043,13307,Mikkeller ApS,Weizenbock,Weizenbock,8.5
+77112,13307,Mikkeller ApS,American Porter,Texas Ranger - Brandy Barrel Aged With Vanilla-beans And Cocoa-beans,6.6
+31545,13371,Voodoo Brewing Company,Tripel,Gran Met,10.5
+31546,13371,Voodoo Brewing Company,Belgian Strong Pale Ale,Voodoo Love Child,10.5
+31547,13371,Voodoo Brewing Company,American Double / Imperial Stout,Black Magick,15.0
+31548,13371,Voodoo Brewing Company,American Double / Imperial Stout,Big Black Voodoo Daddy,12.5
+31549,13371,Voodoo Brewing Company,Keller Bier / Zwickel Bier,PILZILLA,6.7
+31550,13371,Voodoo Brewing Company,Witbier,White Magic Of The Sun,6.75
+31551,13371,Voodoo Brewing Company,American Brown Ale,Wynona's Big Brown Ale,7.3
+38805,13371,Voodoo Brewing Company,American IPA,4 Seasons IPA,8.0
+51442,13371,Voodoo Brewing Company,American IPA,Got Gas? Nitro IPA,7.0
+54620,13371,Voodoo Brewing Company,Milk / Sweet Stout,Cowbell Imperial Oatmeal Milk Stout,8.5
+59061,13371,Voodoo Brewing Company,Saison / Farmhouse Ale,Jungle De Rus (Stillwater / Voodoo Collaboration),8.3
+70022,13371,Voodoo Brewing Company,Eisbock,Trapped Under Eisbock,14.0
+71116,13371,Voodoo Brewing Company,American Strong Ale,Black Strap,9.0
+74347,13371,Voodoo Brewing Company,Pumpkin Ale,Headless Horseman,8.5
+34306,15237,De Struise Brouwers,Quadrupel (Quad),Pannepot,10.0
+34307,15237,De Struise Brouwers,American Amber / Red Ale,Struise Rosse,6.0
+34308,15237,De Struise Brouwers,Witbier,Struise Witte,5.0
+34309,15237,De Struise Brouwers,Belgian Pale Ale,Struise Kloeke Blonde,6.0
+34310,15237,De Struise Brouwers,Belgian Strong Pale Ale,Struise Tsjeeses,10.0
+34311,15237,De Struise Brouwers,Flanders Oud Bruin,Aardmonnik - Earthmonk,8.0
+34312,15237,De Struise Brouwers,Quadrupel (Quad),Pannepot Reserva,10.0
+36198,15237,De Struise Brouwers,Quadrupel (Quad),Pannepøt - Old Monk's Ale,10.0
+38334,15237,De Struise Brouwers,Russian Imperial Stout,Black Albert,13.0
+39379,15237,De Struise Brouwers,American Double / Imperial IPA,Struise Mikkeller (Elliot Brew),9.0
+40465,15237,De Struise Brouwers,Belgian Strong Pale Ale,Struise New Years Blonde,10.0
+41010,15237,De Struise Brouwers,American Wild Ale,Struiselensis,7.0
+41690,15237,De Struise Brouwers,Quadrupel (Quad),Pannepot Grand Reserva,10.0
+44910,15237,De Struise Brouwers,Lambic - Unblended,Dirty Horse,7.0
+45066,15237,De Struise Brouwers,American Porter,Black Jack,7.0
+46850,15237,De Struise Brouwers,Belgian Strong Pale Ale,Struise Tsjeeses Reserva,10.0
+47053,15237,De Struise Brouwers,Belgian Pale Ale,Moeder Lambik Blond,5.5
+47100,15237,De Struise Brouwers,Russian Imperial Stout,Cuvee Delphine,13.0
+47590,15237,De Struise Brouwers,Belgian Pale Ale,Cuvee Mon Bijou,6.0
+48352,15237,De Struise Brouwers,Lambic - Fruit,Struise Alvinne Keralensis,6.0
+48356,15237,De Struise Brouwers,Belgian Strong Pale Ale,Schommelpeird,12.0
+48358,15237,De Struise Brouwers,Herbed / Spiced Beer,Besty,10.0
+48378,15237,De Struise Brouwers,American Barleywine,Struise / Pipeworks Xenophon's Wine,11.0
+48405,15237,De Struise Brouwers,Russian Imperial Stout,Black Damnation,13.0
+52576,15237,De Struise Brouwers,Belgian Pale Ale,Den Grooten Tocht,6.0
+53874,15237,De Struise Brouwers,Doppelbock,Doppel Strauss,8.0
+55554,15237,De Struise Brouwers,American Double / Imperial Stout,Black Damnation II - Mocha Bomb,12.0
+56774,15237,De Struise Brouwers,American Double / Imperial Stout,Black Damnation III - Black Mes,13.0
+56775,15237,De Struise Brouwers,American Double / Imperial Stout,Black Damnation IV - Coffee Club,13.0
+56780,15237,De Struise Brouwers,Quadrupel (Quad),Pannepot Wild,10.0
+58119,15237,De Struise Brouwers,Belgian Dark Ale,Red Haired Jeanne (Roste Jeanne),7.0
+58905,15237,De Struise Brouwers,Quadrupel (Quad),St. Amatus 12,10.5
+59359,15237,De Struise Brouwers,Belgian Dark Ale,Moeder Lambik Amber,5.0
+59378,15237,De Struise Brouwers,Flanders Oud Bruin,Aardmoker - Earthmallet,16.0
+62070,15237,De Struise Brouwers,Belgian IPA,Ignis Et Flamma,7.0
+66572,15237,De Struise Brouwers,Belgian Strong Dark Ale,Outblack,10.0
+66623,15237,De Struise Brouwers,Belgian IPA,Svea IPA,7.0
+70632,15237,De Struise Brouwers,American Black Ale,Black Damnation VIII - S.H.I.T.,12.0
+73449,15237,De Struise Brouwers,American Stout,Black Damnation VII - Single Black (DUPLICATE),2.0
+73451,15237,De Struise Brouwers,American Stout,Black Damnation VII - Single Black,2.0
+73488,15237,De Struise Brouwers,American Double / Imperial IPA,Shark Pants,9.0
+75316,15237,De Struise Brouwers,Quadrupel (Quad),Pannepot Special Reserve,10.0
+76033,15237,De Struise Brouwers,American Blonde Ale,Motuecha,5.0
+38347,15732,Le Saint-Bock Brasserie Artisanale Inc.,English Brown Ale,Saint-Bock Brown Ale Aux Omega-3,6.0
+42439,15732,Le Saint-Bock Brasserie Artisanale Inc.,English Pale Ale,Tentations,5.0
+42786,15732,Le Saint-Bock Brasserie Artisanale Inc.,Milk / Sweet Stout,Malédiction,5.0
+42787,15732,Le Saint-Bock Brasserie Artisanale Inc.,American IPA,T'amère,5.0
+43578,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Barleywine,13th Commandment,10.5
+44970,15732,Le Saint-Bock Brasserie Artisanale Inc.,Herbed / Spiced Beer,Gummy Beer,5.0
+44971,15732,Le Saint-Bock Brasserie Artisanale Inc.,Scottish Gruit / Ancient Herbed Ale,La Vierge,6.5
+44972,15732,Le Saint-Bock Brasserie Artisanale Inc.,Oatmeal Stout,L'Ange Noir,5.0
+44973,15732,Le Saint-Bock Brasserie Artisanale Inc.,American IPA,Calice,6.0
+45000,15732,Le Saint-Bock Brasserie Artisanale Inc.,Witbier,Pénitente,5.0
+47555,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Porter,Guerison Porter,5.0
+54577,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Porter,R.I.P.,14.5
+55526,15732,Le Saint-Bock Brasserie Artisanale Inc.,Doppelbock,Centurion,11.5
+55784,15732,Le Saint-Bock Brasserie Artisanale Inc.,English Barleywine,Enigma,13.0
+57720,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Black Ale,666.0,6.6
+58614,15732,Le Saint-Bock Brasserie Artisanale Inc.,Wheatwine,Le Prophètie,8.0
+59515,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Wild Ale,Apocalypse,9.9
+64388,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Double / Imperial Stout,R.I.P Ultime,15.0
+64389,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Double / Imperial Stout,Sacrilège,16.0
+70650,15732,Le Saint-Bock Brasserie Artisanale Inc.,Witbier,Chérubin,4.5
+70652,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Double / Imperial IPA,Unbinilium,9.2
+71170,15732,Le Saint-Bock Brasserie Artisanale Inc.,Scotch Ale / Wee Heavy,Redemption,8.1
+72344,15732,Le Saint-Bock Brasserie Artisanale Inc.,American Double / Imperial IPA,Black Jesus,9.3
+39435,16315,BrewDog,American IPA,Punk IPA,6.0
+39689,16315,BrewDog,Extra Special / Strong Bitter (ESB),The Physics,5.0
+39758,16315,BrewDog,American Pale Lager,Hop Rocker,5.5
+41505,16315,BrewDog,American Double / Imperial IPA,Hardcore IPA,9.0
+41635,16315,BrewDog,American Double / Imperial Stout,Rip Tide,8.0
+41670,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Islay (Batch 009) - Ardbeg,10.0
+41677,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Grain (Batch 007) - Carsebridge 1963,10.0
+41680,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Speyside (Batch 005) - Glen Moray 1992,10.0
+41777,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Islay (Batch 008) - Bowmore 1987,10.0
+41820,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Islay (Batch 006) - Duncan Taylor & Co Caol Ila 1996,10.0
+42059,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Grain (Batch 002) - Duncan Taylor & Co Invergordon 1965,10.0
+42286,16315,BrewDog,American Double / Imperial IPA,Storm (Islay Whisky Cask Aged IPA),8.0
+43894,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Glen Grant (Batch 003),10.0
+44026,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Speyside (Batch 011) - 1987 Macallan Sherry Cask,10.0
+44484,16315,BrewDog,American Double / Imperial Stout,Tokyo,12.0
+45833,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Grain (Batch 013) - Port Dundas 1966,10.0
+46718,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Isle Of Arran (Batch 016),10.0
+46772,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Islay (Batch 001) - Duncan Taylor & Co Caol Ila 1996,10.0
+46773,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Speyside (Batch 010) - Smokehead,10.0
+47238,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Smokehead (Batch 015) - Smokehead,10.0
+47395,16315,BrewDog,American Strong Ale,Speedball,7.8
+47777,16315,BrewDog,English Pale Ale,Trashy Blonde,4.1
+48058,16315,BrewDog,Euro Pale Lager,Cult Lager,5.4
+48274,16315,BrewDog,Herbed / Spiced Beer,Dogma,7.8
+48861,16315,BrewDog,Schwarzbier,Zeitgeist,4.9
+48862,16315,BrewDog,American Double / Imperial Stout,Coffee Imperial Stout,9.5
+48864,16315,BrewDog,English Dark Mild Ale,Edge,2.7
+48865,16315,BrewDog,English Barleywine,Devine Rebel,12.5
+48867,16315,BrewDog,American Double / Imperial Stout,Raspberry Imperial Stout,10.0
+48868,16315,BrewDog,American Double / Imperial IPA,Zephyr,13.0
+49766,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Springbank (Batch 017),10.0
+49769,16315,BrewDog,English India Pale Ale (IPA),Chaos Theory,7.1
+51061,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Longrow (Batch 018),10.0
+51580,16315,BrewDog,English India Pale Ale (IPA),Atlantic IPA,8.5
+51581,16315,BrewDog,English Dark Mild Ale,How To Disappear Completely,3.5
+52732,16315,BrewDog,American IPA,Punk Monk,6.0
+52818,16315,BrewDog,German Pilsener,77 Lager,4.9
+53388,16315,BrewDog,American Black Ale,Bashah,8.6
+54530,16315,BrewDog,English Pale Ale,Movember,4.5
+55191,16315,BrewDog,American Amber / Red Ale,5 A.M. Saint,5.0
+57239,16315,BrewDog,American Stout,Black Dog,5.5
+57576,16315,BrewDog,Quadrupel (Quad),Abstrakt AB:01,10.2
+58604,16315,BrewDog,American Strong Ale,Shark,10.0
+59128,16315,BrewDog,Fruit / Vegetable Beer,Prototype 27,9.3
+59619,16315,BrewDog,Saison / Farmhouse Ale,TM 10,5.5
+59713,16315,BrewDog,American Amber / Red Ale,Alpha Dog,4.5
+61022,16315,BrewDog,Russian Imperial Stout,Brewdog Paradox Islay (Batch 004) - Duncan Taylor Bowmore 1968,10.0
+61128,16315,BrewDog,American Double / Imperial IPA,I Hardcore You,9.5
+62052,16315,BrewDog,German Pilsener,"77 Lager (3,4%)",3.4
+62385,16315,BrewDog,American Double / Imperial Stout,Abstrakt AB:04,15.0
+62463,16315,BrewDog,American Blonde Ale,"Trashy Blonde (3,4%)",3.4
+64051,16315,BrewDog,Herbed / Spiced Beer,There Is No Santa,4.7
+64154,16315,BrewDog,American Double / Imperial IPA,Hardcore IPA (2nd Ed. 9.2%),9.2
+64359,16315,BrewDog,American Black Ale,Bashah Highland Park And Black Raspberry Reserve,8.7
+64453,16315,BrewDog,English Barleywine,Devine Rebel Mortlach Reserve 2008,12.5
+64656,16315,BrewDog,Fruit / Vegetable Beer,Abstrakt AB:03,10.5
+65902,16315,BrewDog,Baltic Porter,Alice Porter,6.2
+66683,16315,BrewDog,American IPA,Punk IPA (5.6%),5.6
+66710,16315,BrewDog,Russian Imperial Stout,Abstrakt AB:05,12.5
+66808,16315,BrewDog,English India Pale Ale (IPA),Bramling X (IPA Is Dead),7.5
+66809,16315,BrewDog,English India Pale Ale (IPA),Citra (IPA Is Dead),7.5
+66810,16315,BrewDog,English India Pale Ale (IPA),Sorachi Ace (IPA Is Dead),7.5
+66826,16315,BrewDog,English India Pale Ale (IPA),Nelson Sauvin (IPA Is Dead),7.5
+67199,16315,BrewDog,American Double / Imperial IPA,"Hello, My Name Is Ingrid",8.2
+68125,16315,BrewDog,English Pale Ale,Growler,4.5
+68151,16315,BrewDog,American Double / Imperial IPA,Tesco Finest American Double IPA,9.2
+68197,16315,BrewDog,American Double / Imperial Pilsner,Avery Brown Dredge,7.5
+68511,16315,BrewDog,American Barleywine,BrewDog / Three Floyds Bitch Please,11.5
+69040,16315,BrewDog,American IPA,Royal Virility Performance,7.5
+69466,16315,BrewDog,American Black Ale,Abstrakt AB:06,11.2
+70598,16315,BrewDog,Witbier,Imperial Wheat,10.27
+72771,16315,BrewDog,Fruit / Vegetable Beer,Prototype 17,4.7
+73064,16315,BrewDog,American Black Ale,Bashah Imperial Tayberry Reserve,8.9
+74162,16315,BrewDog,American Amber / Red Ale,Hops Kill ?,7.8
+74470,16315,BrewDog,American IPA,Sunk Punk,7.1
+75085,16315,BrewDog,Russian Imperial Stout,Old World Russian Imperial Stout,8.2
+75262,16315,BrewDog,Foreign / Export Stout,Mr. Miagi's Wasabi Stout,7.2
+75710,16315,BrewDog,American Double / Imperial Stout,BrewDog Paradox Smokehead (Batch 010),10.0
+76026,16315,BrewDog,English India Pale Ale (IPA),Old World India Pale Ale,7.5
+76095,16315,BrewDog,English Porter,Christmas Porter,6.2
+76464,16315,BrewDog,Scotch Ale / Wee Heavy,Scotch Ale,7.5
+76502,16315,BrewDog,Scotch Ale / Wee Heavy,Abstrakt AB:07,12.5
+59722,16594,LagerHaus Grill & Brewery,Lambic - Fruit,Wildberry Lambic,15.0
+59727,16594,LagerHaus Grill & Brewery,Hefeweizen,Fischer Hefeweizen,5.4
+59728,16594,LagerHaus Grill & Brewery,American IPA,Cattail Pale,6.4
+59753,16594,LagerHaus Grill & Brewery,English Strong Ale,Flying Gator,6.8
+64728,16594,LagerHaus Grill & Brewery,American Strong Ale,George Washington's Own,7.0
+74001,16594,LagerHaus Grill & Brewery,Berliner Weissbier,Berliner Kirsch,4.6
+74003,16594,LagerHaus Grill & Brewery,Belgian Strong Dark Ale,Franziscus Quadruple,12.0
+74005,16594,LagerHaus Grill & Brewery,Flanders Oud Bruin,Madame Pompadour,9.0
+74006,16594,LagerHaus Grill & Brewery,Lambic - Fruit,Cherry Lambic,11.0
+74496,16594,LagerHaus Grill & Brewery,Euro Dark Lager,The Old Porch Dog,6.4
+56425,22202,Element Brewing Company,American Amber / Red Ale,Red Giant,8.0
+58246,22202,Element Brewing Company,English Strong Ale,Extra Special Oak (ESO),7.75
+58887,22202,Element Brewing Company,American Black Ale,Dark Element,8.0
+62012,22202,Element Brewing Company,Märzen / Oktoberfest,Altoberfest,7.0
+63094,22202,Element Brewing Company,Tripel,Brix,11.5
+64488,22202,Element Brewing Company,American Black Ale,6:56 (2010),15.0
+67725,22202,Element Brewing Company,Wheatwine,Vernal,9.2
+69030,22202,Element Brewing Company,American Double / Imperial Pilsner,Summer Pilsner Fusion,8.8
+75782,22202,Element Brewing Company,Herbed / Spiced Beer,Winter Ion,8.5
+76407,22202,Element Brewing Company,American Amber / Red Ale,6:56 (2011),13.0
