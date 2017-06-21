@@ -16,7 +16,6 @@ The following directories or files will be especially interesting/important for 
 Project Organization
 ------------
 
-    ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make clean`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
