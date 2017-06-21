@@ -3,6 +3,15 @@ CiBO_data_science_exercise
 
 CiBO's data science exerice used during the hiring process.
 
+### Points of interest
+
+The following directories or files will be especially interesting/important for the person going through this document.
+- `notebooks/explore/` contains all the jupyter notebooks used to go through the analysis
+- `notebooks/reports/` contains the jupyter notebook used to generate the final report **this notebook could even be used as a report**
+- `src/data/utils.py` is a python file that contains all the helper functions used throughout the analysis
+- `reports/` contains the final report in various formats
+
+
 Project Organization
 ------------
 
