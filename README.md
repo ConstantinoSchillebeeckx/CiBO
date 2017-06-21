@@ -1,7 +1,7 @@
 CiBO_data_science_exercise
 ==============================
 
-CiBO's data science exerice used during the hiring process; the final report is found [here](reports/1.0_report.md).
+CiBO's data science exerice used during the hiring process; **the final report is found [here](reports/1.0_report.md)**.
 
 ### Points of interest
 
@@ -22,8 +22,6 @@ Project Organization
     │   ├── interim        <- Data generated during the data analysis process, e.g. stats file.
     │   ├── final          <- Final data results which designate what was learned from the analysis.
     │   └── raw            <- The original, immutable data dump including OTU table and mapping file.
-    │
-    ├── docs               <- MkDocs
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │   |                     a short `-` delimited description, and initials (if needed) e.g.
