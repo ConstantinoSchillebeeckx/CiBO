@@ -136,4 +136,35 @@ def split_data(df, ratios=[0.6,0.2,0.2], random=42):
 
 
 def is_not_ascii(s):
+    '''
+    Helper function to identify string as ASCII
+
+    Args:
+        s (str): input string to check
+
+    Yields:
+        bool of whether a string is NOT an ASCII character
+    '''
     return not all(ord(c) < 128 for c in str(s))
+
+
+def cohen_d(x,y):
+    '''
+    Calculate the cohen's d effect size.
+
+    Args:
+        x (array) - values for sample 1
+        y (array) - values for sample 2
+
+    Yields:
+        float of effect size
+
+    Sources:
+        https://en.wikipedia.org/wiki/Effect_size#Cohen.27s_d
+        https://stackoverflow.com/a/33002123/1153897
+    '''
+    nx = len(x)
+    ny = len(y)
+    dof = nx + ny - 2
+    return (np.mean(x) - np.mean(y)) / np.sqrt(((nx-1)*np.std(x, ddof=1) ** 2 + (ny-1)*np.std(y, ddof=1) ** 2) / dof)
+

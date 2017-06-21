@@ -68,5 +68,9 @@ This notebook serves as the master report document which will present the analys
   * [Dealing with noisy ABV%](/notebooks/reports/1.0_report.ipynb)
   * [Choosing a brewery](/notebooks/reports/1.0_report.ipynb)
   * [Summary](/notebooks/reports/1.0_report.ipynb)
-* [If you had to pick 3 beers to recommend using only this data, which would you pick?](/notebooks/reports/1.0_report.ipynb)
+* [Q2: If you had to pick 3 beers to recommend using only this data, which would you pick?](/notebooks/reports/1.0_report.ipynb)
+  * [Introduction](/notebooks/reports/1.0_report.ipynb)
+  * [Removing suspicious reviews (trolls)](/notebooks/reports/1.0_report.ipynb)
+  * [Determining best beer](/notebooks/reports/1.0_report.ipynb)
+  * [Summary](/notebooks/reports/1.0_report.ipynb)
 
